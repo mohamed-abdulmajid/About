@@ -359,6 +359,7 @@ body {
   section {
     padding: 60px 0;
     overflow: hidden;
+    
   }
   
   .section-title {
@@ -908,6 +909,9 @@ body {
     bottom: 15px;
     right: 15px;
   }
+
+
+  /*page section*/
   .page-section .card-body .card-title{
     color: #869fb6;
     font-size: 26px;
@@ -928,13 +932,16 @@ body {
     border-radius: 15px;
   }
   .page-section .card iframe{
+
     /* border-top-left-radius: 15px;
     border-top-right-radius: 15px; */
+    width: 100%;
     border-radius: 15px;
     margin: 20px;
     -moz-box-shadow:    3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
     -webkit-box-shadow: 3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
     box-shadow:         3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
+    background-size: 100%;
   }
   .page-section .card img{
         /* border-top-left-radius: 15px;
@@ -951,11 +958,11 @@ body {
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
          box-shadow: 0 8px 6px -6px black; */
-  .card{
+  /* .card{
     -moz-box-shadow:    3px 3px 5px 6px #ccc;
     -webkit-box-shadow: 3px 3px 5px 6px #ccc;
     box-shadow:         3px 3px 5px 6px #ccc;
-  }
+  } */
   .col{
     padding: 20px;
 
@@ -1008,3 +1015,153 @@ body {
       display: grid;
  }
 }
+
+
+/*sweiper part*/
+.card {
+  height: 379px;
+  width: 100%;
+  background: #011426;
+  border-radius: 10px;
+  transition:  0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+} 
+.page-section .swiper-container {
+  width: 100%;
+  padding-top: 90px;
+  padding-bottom: 10px;
+ transition: all 0.5s linear;
+}
+.page-section .swiper-container .swiper-slide {
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  }
+
+  .page-section .swiper-container .swiper-slide .card .border h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: rgb(255, 255, 255);
+  }
+  .page-section .swiper-container .swiper-slide .card .border h2 ::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  .page-section .swiper-container .swiper-slide .card .border h2 ::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+
+  .card0 {
+    background: url("../img/Voice/youtube.jpg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card0:hover {
+    background: url("../img/Voice/youtube.jpg") left center no-repeat;
+    background-size: 105%;
+  }
+  .card1 {
+    background: url("../img/portfolio/11.jpg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card1:hover {
+    background: url("../img/portfolio/11.jpg") left center no-repeat;
+    background-size: 105%;
+  }
+  .card2 {
+    background: url("../img/Voice/2.jpeg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card2:hover {
+    background: url("../img/Voice/2.jpeg") left center no-repeat;
+    background-size: 105%;
+  }
+  .card3 {
+    background: url("../img/Voice/4.jpg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card3:hover {
+    background: url("../img/Voice/4.jpg") left center no-repeat;
+    background-size: 105%;
+  }
+
+  .card4 {
+    background: url("../img/Voice/1.jpeg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card4:hover {
+    background: url("../img/Voice/1.jpeg") left center no-repeat;
+    background-size: 105%;
+  }
+  .card5 {
+    background: url("../img/Voice/3.jpg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card5:hover {
+    background: url("../img/Voice/3.jpg") left center no-repeat;
+    background-size: 105%;
+  }
+  .card6 {
+    background: url("../img/Voice/5.png") center center no-repeat;
+    background-size: 100%;
+  }
+  .card6:hover {
+    background: url("../img/Voice/5.png") left center no-repeat;
+    background-size: 105%;
+  }
+  .card7 ,.card8 {
+    background: url("../img/portfolio/voice.jpg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card7:hover ,.card8:hover {
+    background: url("../img/portfolio/voice.jpg") left center no-repeat;
+    background-size: 105%;
+  }
+  .card9 {
+    background: url("../img/Voice/6.jpg") center center no-repeat;
+    background-size: 100%;
+  }
+  .card9:hover {
+    background: url("../img/Voice/6.jpg") left center no-repeat;
+    background-size: 105%;
+  }
+  @media (max-width: 992px){
+    .card{
+      width: 300px;
+    }
+    .card0 ,.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9 {
+      background-size: cover;
+    }
+    .card0:hover ,.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover,.card6:hover,.card7:hover,.card8:hover,.card9:hover{
+      background-size: 800px;
+    }
+    .page-section .swiper-container .swiper-slide{
+      background-size: cover;
+    }
+  }
