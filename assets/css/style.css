@@ -912,40 +912,38 @@ body {
 
 
   /*page section*/
+
   .page-section .card-body .card-title{
     color: #869fb6;
     font-size: 26px;
     font-weight: 20px;
     font-style: oblique;
     font-display: inherit;
+    background-color: #000;
+    color: #d7dce1;
   }
   .page-section .card-body .card-text{
     color: #d7dce1;
   }
   .page-section .card-body{
-    background-color: #fff;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
-
+    width: 100%;
+    height: auto;
+    background-color: #000;
   }
   .page-section .card{
     border-radius: 15px;
   }
   .page-section .card iframe{
-
-    /* border-top-left-radius: 15px;
-    border-top-right-radius: 15px; */
     width: 100%;
     border-radius: 15px;
-    margin: 20px;
     -moz-box-shadow:    3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
     -webkit-box-shadow: 3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
     box-shadow:         3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
     background-size: 100%;
   }
   .page-section .card img{
-        /* border-top-left-radius: 15px;
-    border-top-right-radius: 15px; */
     border-radius: 15px;
     margin: 18px;
     -moz-box-shadow:    3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
