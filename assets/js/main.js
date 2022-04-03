@@ -312,3 +312,6 @@ function playAduio() {
       vid.pause(); 
     } 
 
+    function go(loc) {
+      document.getElementById('MENUview').src = loc;
+    }
