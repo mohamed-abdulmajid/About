@@ -7,7 +7,6 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -114,13 +113,15 @@
         <centre style="padding-top:15px ;">
           <ul id="portfolio-flters">
             <!-- <li data-filter="*" class="filter-active">All</li> -->
-            <li data-filter=".filter-Facts" >Facts</li>
+            <li data-filter=".filter-Facts">Facts</li>
             <li data-filter=".filter-WORK" >ABOUT MY CAREER</li>
             <li data-filter=".filter-Voice">Voice Over work</li>
           </ul>
         </centre>
       </div>
     </div>
+
+
     
     <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
       <section id="facts" class="facts portfolio-item filter-Facts">
@@ -429,276 +430,61 @@
         <div class="container" data-aos="fade-up">
           <div class="section-title">
             <h2>ABOUT MY Voice Over</h2>
+            <div class="row">
+                <div class="dropdown col-sm-4">
+                  <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
+                    <i class="bi bi-youtube"></i> YOUTUBE
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
+                    <li><h6 class="dropdown-header"> <i class="bi bi-youtube"></i> YOUTUBE</h6></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li onclick="go('https://www.youtube.com/embed/NpKF2c2czOg?controls=0')" class="dropdown-item">LINKCU platform (official)</li>
+                    <li onclick="go('https://www.youtube.com/embed/y_zNcqpCwgQ?controls=0')" class="dropdown-item" >Bank Al Ahly (unofficial)</li>
+                    <li onclick="go('https://www.youtube.com/embed/AzcBQmCnkOU?controls=0')" class="dropdown-item">يوم الأب العالمي</li>
+                    <li onclick="go('https://www.youtube.com/embed/u0mFUjRnxRk?controls=0')" class="dropdown-item">EBI ADS (unofficial)</li>
+                    <li onclick="go('https://www.youtube.com/embed/CVgKQmFHtXI?controls=0')" class="dropdown-item">Pepsi</li>
+                    <li onclick="go('https://www.youtube.com/embed/j11UNGTOFW4?controls=0')" class="dropdown-item">سباقك الحقيقي مع نفسك</li>
+                    <li onclick="go('https://www.youtube.com/embed/1roagKqyKPw?controls=0')" class="dropdown-item">BOLT</li>
+                    <li onclick="go('https://www.youtube.com/embed/E-qlNhQsCrs?controls=0')" class="dropdown-item">كنور</li>
+                    <li onclick="go('https://www.youtube.com/embed/g1-TuYJlagg?controls=0')" class="dropdown-item">Pepsi , Chipsy</li>
+                    <li onclick="go('https://www.youtube.com/embed/oVC6q06DAdI?controls=0')" class="dropdown-item">A Bug's Life</li>
+                    <li onclick="go('https://www.youtube.com/embed/NUHNB3pU6yQ?controls=0')" class="dropdown-item">Sodic (unofficial)</li>
+                    <li onclick="go('https://www.youtube.com/embed/TcvLKBYFhxo?controls=0')" class="dropdown-item">the joker</li>
+                    <li onclick="go('https://www.youtube.com/embed/cI91A8bukKU?controls=0')" class="dropdown-item">Princess and the frog</li>
+                    <li onclick="go('https://www.youtube.com/embed/YYrnA_9PFHE?controls=0')" class="dropdown-item">الفار الطباخ</li>
+                  </ul>
+                </div>
+                <div class="dropdown col-sm-4">
+                  <button class="btn btn-outline-primary dropdown-toggle btn-large" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
+                    <i class="bx bxl-facebook"></i> FaceBook
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
+                    <li><h6 class="dropdown-header"> <i class="bx bxl-facebook"></i> FaceBook</h6></li>
+                    <li><hr class="dropdown-divider"></li>
+                  </ul>
+                </div>
+                <div class="dropdown col-sm-4">
+                  <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
+                    REALS
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
+                    <li><h6 class="dropdown-header">REALS</h6></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+                  </ul>
+                </div>
+            </div>
 
             <div class="row">
-              <div class="col-sm-8"> 
+              <div class="col-sm-12"> 
                 <iframe id="MENUview" src="https://www.youtube.com/embed/NpKF2c2czOg?controls=0" class="card-img-top" allowfullscreen></iframe>
-              </div>
-
-              <div class="col-sm-4">
-              
-
-
-                <div id="table-wrapper">
-                  <div id="table-scroll">
-                  <table class="table">
-                    <tr>
-                      <th>#</th>
-                      <th>Name</th>
-                      <th>play</th>
-                    </tr>
-                    
-                    <tr>
-                      <td>1</td>
-                      <td>LINKCU platform (official)</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" onclick="go('https://www.youtube.com/embed/NpKF2c2czOg?controls=0')" checked>
-                        <label class="btn btn-secondary" for="option2"><i class="bi bi-play"></i></label> 
-                      </td>
-                    </tr>
-      
-      
-                    <tr>
-                      <td>2</td>
-                      <td>Bank Al Ahly (unofficial)</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off"  onclick="go('https://www.youtube.com/embed/y_zNcqpCwgQ?controls=0')"/>
-                        <label class="btn btn-secondary" for="option3" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>
-      
-                    <tr>
-                      <td>3</td>
-                      <td>يوم الأب العالمي</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off"  onclick="go('https://www.youtube.com/embed/AzcBQmCnkOU?controls=0')"/>
-                        <label class="btn btn-secondary" for="option4" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>
-      
-                    <tr>
-                      <td>4</td>
-                      <td>EBI ADS (unofficial)</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option5" autocomplete="off"  onclick="go('https://www.youtube.com/embed/u0mFUjRnxRk?controls=0')"/>
-                        <label class="btn btn-secondary" for="option5" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Pepsi</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option6" autocomplete="off"  onclick="go('https://www.youtube.com/embed/CVgKQmFHtXI?controls=0')"/>
-                        <label class="btn btn-secondary" for="option6" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>  سباقك الحقيقي مع نفسك  </td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option7" autocomplete="off"  onclick="go('https://www.youtube.com/embed/j11UNGTOFW4?controls=0')"/>
-                        <label class="btn btn-secondary" for="option7" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr> 
-                    <tr>
-                      <td>7</td>
-                      <td>BOLT</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option8" autocomplete="off"  onclick="go('https://www.youtube.com/embed/1roagKqyKPw?controls=0')"/>
-                        <label class="btn btn-secondary" for="option8" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>          
-                    
-                    <tr>
-                      <td>8</td>
-                      <td>كنور</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option9" autocomplete="off"  onclick="go('https://www.youtube.com/embed/E-qlNhQsCrs?controls=0')"/>
-                        <label class="btn btn-secondary" for="option9" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>     
-                    
-                    <tr>
-                      <td>9</td>
-                      <td>Pepsi , Chipsy </td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option10" autocomplete="off"  onclick="go('https://www.youtube.com/embed/g1-TuYJlagg?controls=0')"/>
-                        <label class="btn btn-secondary" for="option10" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>     
-                  
-                    <tr>
-                      <td>10</td>
-                      <td>A Bug's Life</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option11" autocomplete="off"  onclick="go('https://www.youtube.com/embed/oVC6q06DAdI?controls=0')"/>
-                        <label class="btn btn-secondary" for="option11" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>      
-                    
-                    <tr>
-                      <td>11</td>
-                      <td>Sodic (unofficial)</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option12" autocomplete="off"  onclick="go('https://www.youtube.com/embed/NUHNB3pU6yQ?controls=0')"/>
-                        <label class="btn btn-secondary" for="option12" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>       
-                    
-                    <tr>
-                      <td>12</td>
-                      <td>the joker</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option13" autocomplete="off"  onclick="go('https://www.youtube.com/embed/TcvLKBYFhxo?controls=0')"/>
-                        <label class="btn btn-secondary" for="option13" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>         
-                    
-                    <tr>
-                      <td>13</td>
-                      <td>Princess and the frog</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option14" autocomplete="off"  onclick="go('https://www.youtube.com/embed/cI91A8bukKU?controls=0')"/>
-                        <label class="btn btn-secondary" for="option14" ><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>        
-                    
-                    <tr>
-                      <td>14</td>
-                      <td>الفار الطباخ</td>
-                      <td>
-                        <input type="radio" class="btn-check" name="options" id="option15" autocomplete="off"  onclick="go('https://www.youtube.com/embed/YYrnA_9PFHE?controls=0')"/>
-                        <label class="btn btn-secondary" for="option15"><i class="bi bi-play"></i></label>
-                      </td>
-                    </tr>
-                  </table>
-                  </div>
-                </div>
-              </div>
-
-
-              
+              </div>             
             </div>
-  <senter>
-
-    <div class="row">
-      <div class="col-sm-4">
-
-      </div>
-      <div class="col-sm-4">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-    
-    
-            <div class="swiper-slide">
-              <div class="card card1">
-                <a href="https://www.facebook.com/100004143494163/posts/1670161066465327">
-                  <div class="border">
-                    <h2>Finding Nemo حقيقي .. انتي ضيعتي وقتي . 💔</h2>
-                  </div>
-                </a>
-            </div>
-          </div>
-      
-          <div class="swiper-slide">
-            <div class="card card2">
-              <a href="https://www.facebook.com/100004143494163/posts/1971070123041085/">
-                <div class="border">
-                  <h2>  Scene - Over the Moon  </h2>
-                </div>
-              </a>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="card card3">
-            <a href="https://www.facebook.com/100004143494163/videos/1687829348031832/">
-              <div class="border">
-                <h2> Scene - Moana </h2>
-              </div>
-            </a>
-        </div>
-      </div>
-      
-      
-      <div class="swiper-slide">
-        <div class="card card4">
-          <a href="https://www.facebook.com/100004143494163/videos/1621207241360710/">
-            <div class="border">
-              <h2> 
-                Zootopia
-              </h2>
-            </div>
-          </a>
-      </div>
-      </div>
-      
-      <div class="swiper-slide">
-        <div class="card card5">
-          <a href="https://www.facebook.com/100004143494163/videos/1609884295826338/">
-            <div class="border">
-              <h2>سمبا بدور اسكار</h2>
-            </div>
-          </a>
-      </div>
-      </div>
-      
-      
-      <div class="swiper-slide">
-        <div class="card card6">
-          <a href="https://www.facebook.com/100004143494163/videos/1594954260652675">
-            <div class="border">
-              <h2>Mulan 🐲 مولان  </h2>
-            </div>
-          </a>
-      </div>
-      </div>
-      
-      
-      <div class="swiper-slide">
-        <div class="card card7">
-          <a href="https://www.facebook.com/100004143494163/videos/1620428128105288/">
-            <div class="border">
-              <h2>هسهر كالعادة </h2>
-            </div>
-          </a>
-      </div>
-      </div>
-      
-      
-      <div class="swiper-slide">
-        <div class="card card8">
-          <a href="https://www.facebook.com/100004143494163/videos/1659414370873330/">
-            <div class="border">
-              <h2>  محاضرة 8 الصبح </h2>
-            </div>
-          </a>
-      </div>
-      </div>
-      
-      
-      <div class="swiper-slide">
-        <div class="card card9">
-          <a href="https://www.facebook.com/100004143494163/videos/1580392515442183/">
-            <div class="border">
-              <h2>Spider Man The into Spider verse </h2>
-            </div>
-          </a>
-      </div>
-        </div>
-          </div>
-          <div class="swiper-pagination"></div>
-      </div>
-      </div>
-      <div class="col-sm-4">
-
-      </div>
-    </div>
-
-  </senter>
-
-
-
-
+            
       </section>
 
 
