@@ -243,7 +243,16 @@ body {
   @media (min-width: 992px) {
     #hero {
       padding-left: 0px;
-      background: url("../img/hero-bg.jpg") top right -10px no-repeat ;
+      background: url("../img/hero-bg.jpg") top right -100px no-repeat ;
+      background-size: cover;
+      position: relative;
+    
+    }
+  }
+  @media (max-width: 400px) {
+    #hero {
+      padding-left: 0px;
+      background: url("../img/hero-bg.jpg") top right -400px no-repeat ;
       background-size: cover;
       position: relative;
     
@@ -252,7 +261,6 @@ body {
   #hero:before {
     content: "";
     background: rgba(255, 255, 255, 0.5);
-
     position: absolute;
     bottom: 0;
     top: 0;
@@ -1238,5 +1246,11 @@ body {
     #table-scroll{
       height: 40vh;
     }
+    .dropdown{
+      padding-top: 15px;
+    }
+  
   }
+
+
 
