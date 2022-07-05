@@ -49,7 +49,7 @@
 
             </div>
              <div class="adio" id="audio">
-                        <audio id="myAudio" controls autoplay hidden>
+                        <audio id="myAudio" hidden>
                          <source src="./assets/audio/audio.ogg" type="audio/ogg">
                          <source src="./assets/audio/audio.mp3" type="audio/mpeg">
                          Your browser does not support the audio element.
@@ -103,19 +103,16 @@
 
 <section id="Filter" class="portfolio section-bg">
   <div class="container" data-aos="fade-up">
-
     <div class="section-title">
-      <h2>Filter Part</h2>
+      <h2>Filter Part </h2> 
     </div>
-    
     <div class="row">
       <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
         <centre style="padding-top:15px ;">
           <ul id="portfolio-flters">
-            <!-- <li data-filter="*" class="filter-active">All</li> -->
-            <li data-filter=".filter-Facts">Facts</li>
-            <li data-filter=".filter-WORK" >ABOUT MY CAREER</li>
-            <li data-filter=".filter-Voice">Voice Over work</li>
+            <li data-filter=".filter-Facts" class="btn">Facts</li>
+            <li data-filter=".filter-WORK"  class="btn">ABOUT MY CAREER</li>
+            <li data-filter=".filter-Voice" class="btn">Voice Over work</li>
           </ul>
         </centre>
       </div>
@@ -433,14 +430,13 @@
             <div class="row">
                 <div class="dropdown col-sm-4">
                   <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
-                    <i class="bi bi-youtube"></i> YOUTUBE
+                    <i class="bi bi-youtube"></i> Youtube
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
-                    <li><h6 class="dropdown-header"> <i class="bi bi-youtube"></i> YOUTUBE</h6></li>
+                    <li><h6 class="dropdown-header" style="color: red;"> <i class="bi bi-youtube"></i> Youtube</h6></li>
                     <li><hr class="dropdown-divider"></li>
                     <li onclick="go('https://www.youtube.com/embed/NpKF2c2czOg?controls=0')" class="dropdown-item">LINKCU platform (official)</li>
                     <li onclick="go('https://www.youtube.com/embed/y_zNcqpCwgQ?controls=0')" class="dropdown-item" >Bank Al Ahly (unofficial)</li>
-                    <li onclick="go('https://www.youtube.com/embed/AzcBQmCnkOU?controls=0')" class="dropdown-item">يوم الأب العالمي</li>
                     <li onclick="go('https://www.youtube.com/embed/u0mFUjRnxRk?controls=0')" class="dropdown-item">EBI ADS (unofficial)</li>
                     <li onclick="go('https://www.youtube.com/embed/CVgKQmFHtXI?controls=0')" class="dropdown-item">Pepsi</li>
                     <li onclick="go('https://www.youtube.com/embed/j11UNGTOFW4?controls=0')" class="dropdown-item">سباقك الحقيقي مع نفسك</li>
@@ -456,32 +452,53 @@
                 </div>
                 <div class="dropdown col-sm-4">
                   <button class="btn btn-outline-primary dropdown-toggle btn-large" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
-                    <i class="bx bxl-facebook"></i> FaceBook
+                    <i class="bx bxl-facebook"></i> Facebook
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
-                    <li><h6 class="dropdown-header"> <i class="bx bxl-facebook"></i> FaceBook</h6></li>
+                    <li><h6 class="dropdown-header" style="color: blue;"> <i class="bx bxl-facebook"></i> Facebook</h6></li>
                     <li><hr class="dropdown-divider"></li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=280&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1577587015722733%2F&show_text=false&width=560&t=0')" class="dropdown-item">الامير الضفدع - The Princess and the Frog</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1576707199144048%2F&show_text=false&width=560&t=0')" class="dropdown-item">Ratatouille</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1591261007688667%2F&show_text=false&width=560&t=0')" class="dropdown-item">Aladdin</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1582082501939851%2F&show_text=false&width=560&t=0')" class="dropdown-item">Beauty and the beast </li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1580392515442183%2F&show_text=false&width=560&t=0')" class="dropdown-item">Spider man</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1594954260652675%2F&show_text=false&width=560&t=0')" class="dropdown-item">Mulan</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1602842139863887%2F&show_text=false&width=560&t=0')" class="dropdown-item">Ratatouille</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1611831588964942%2F&show_text=false&width=560&t=0')" class="dropdown-item">رواية تانجل</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1609884295826338%2F&show_text=false&width=560&t=0')" class="dropdown-item">Simba</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1623082921173142%2F&show_text=false&width=560&t=0')" class="dropdown-item">خليك انت - stay you</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1621207241360710%2F&show_text=false&width=560&t=0')" class="dropdown-item">Zootopia</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1618717324943035%2F&show_text=false&width=560&t=0')" class="dropdown-item"> حياة حشره</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1670158556465578%2F&show_text=false&width=560&t=0')" class="dropdown-item">Finding Nemo</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1687829348031832%2F&show_text=false&width=560&t=0')" class="dropdown-item">Moana</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1766355496845883%2F&show_text=false&width=560&t=0')" class="dropdown-item">Polt</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1886933504788081%2F&show_text=false&width=560&t=0')" class="dropdown-item">مشاهد مجمعه</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1971067343041363%2F&show_text=false&width=560&t=0')" class="dropdown-item">Over The Moon</li>
                   </ul>
                 </div>
                 <div class="dropdown col-sm-4">
                   <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
-                    REALS
+                    Reals
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
-                    <li><h6 class="dropdown-header">REALS</h6></li>
+                    <li><h6 class="dropdown-header" style="color: yellow;"><i class="bi bi-camera-reels"></i> Reals</h6></li>
                     <li><hr class="dropdown-divider"></li>
-                    <!-- <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F340389288244306%2F&show_text=false&width=267&t=0')" class="dropdown-item"> إنعدام الانسانيه  </li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F553521989773420%2F&show_text=true&width=267&t=0')" class="dropdown-item">المطلقه</li>
+                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F602252431135004%2F&show_text=false&width=267&t=0')" class="dropdown-item"> اطمن</li>
+                    <li onclick="go('')" class="dropdown-item">   </li>
+                    <li onclick="go('')" class="dropdown-item">   </li>
+                    <li onclick="go('')" class="dropdown-item">   </li>
+                    <li onclick="go('')" class="dropdown-item">   </li>
+                    <li onclick="go('')" class="dropdown-item">   </li>
+                    <li onclick="go('')" class="dropdown-item">   </li>
                   </ul>
                 </div>
             </div>
 
             <div class="row">
               <div class="col-sm-12"> 
-                <iframe id="MENUview" src="https://www.youtube.com/embed/NpKF2c2czOg?controls=0" class="card-img-top" allowfullscreen></iframe>
+                <iframe id="MENUview" src="https://www.youtube.com/embed/NpKF2c2czOg?controls=0" class="card-img-top" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
               </div>             
             </div>
             
