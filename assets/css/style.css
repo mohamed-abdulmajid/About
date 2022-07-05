@@ -249,7 +249,7 @@ body {
     
     }
   }
-  @media (max-width: 400px) {
+  @media (max-width: 550px) {
     #hero {
       padding-left: 0px;
       background: url("../img/hero-bg.jpg") top right -400px no-repeat ;
@@ -260,7 +260,7 @@ body {
   }
   #hero:before {
     content: "";
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, .4);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -305,27 +305,18 @@ body {
   #hero .adio {
     float: right;
     display: flex;
-    background-color: rgb(141, 202, 212);
-    border-radius: 50px;
     width: 50px;
     height: 50px;
    
   }
   #hero .adio a {
-    
-    font-size: 24px;
+    font-size: 5rem;
     display: inline-block;
     color: #45505b;
-    line-height: 1;
-    margin-right: 20px;
-    padding: 13px;
     transition: 0.3s;
   }
   #hero .adio a:hover {
-    color: #0563bb;
-  }
-  #hero .adio:hover {
-    background-color: #45505b;
+    color: darkblue;
   }
   #hrstyle{
     padding-top: 15px;
@@ -543,8 +534,13 @@ body {
   # Footer
   --------------------------------------------------------------*/
   #footer {
-    background: #45505b;
-    color: #f2f2f3;
+    width: 100%;
+    height: 40vh;
+    background: url("../img/footer.jpg") bottom right no-repeat ;
+    background-size: cover;
+    position: relative;
+    /* background: #45505b; */
+    color: #45505b;
     font-size: 14px;
     text-align: center;
     padding: 30px 0;
@@ -569,7 +565,7 @@ body {
   #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #171718;
+    background: #6c6c6e;
     color: #fff;
     line-height: 1;
     padding: 9px;
@@ -961,16 +957,6 @@ body {
     box-shadow:         3px 3px 5px 6px rgba(138, 124, 47, 0.5);;;
       height: 150px;
   }
-
-  /* .card{
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-         box-shadow: 0 8px 6px -6px black; */
-  /* .card{
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
-  } */
   .col{
     padding: 20px;
 
@@ -1026,7 +1012,7 @@ body {
 
 
 /*sweiper part*/
-.card {
+/* .card {
   height: 379px;
   width: 100%;
   background: #011426;
@@ -1085,7 +1071,6 @@ body {
     bottom: 0;
     left: calc(50% - 20px);
   }
-
   .card0 {
     background: url("../img/Voice/youtube.jpg") center center no-repeat;
     background-size: 100%;
@@ -1173,7 +1158,7 @@ body {
       background-size: cover;
     }
 
-  }
+  } */
 
 
   .card-img-top{
