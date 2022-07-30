@@ -471,14 +471,84 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
   }
-  
+    /*--------------------------------------------------------------
+  # gallary
+  --------------------------------------------------------------*/
+  .gallary{
+    background-color: #fff;
+    position: relative;
+    
+  }
+  .gallary .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px , 1fr));
+    gap:40px
+  }
+  .gallary .box{
+    padding: 8px;
+    background-color: rgba(221, 221, 221, 0.401);
+    box-shadow: 0 2px 15px rgba(251, 251, 251) inset;
+    border-radius: .5rem;
+    max-height: fit-content;
+    overflow: hidden;
+  }
+  .gallary .img img{
+    width: 100%;
+    border-radius: .5rem;
+    transition:  all .3s ease-in-out;
+
+  }
+
+  .gallary .img{
+    position: relative;
+    overflow: hidden;
+
+  }
+  .gallary .img::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.263);
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    top:50%;
+    opacity: 0;
+    z-index: 999;
+    transform: translate(-50%,-50%);
+    transition: all .3s ease-in-out;
+  }
+  .gallary .img:hover::before{
+    animation: flashing 0.7s;
+  }
+  .gallary .img:hover img{
+    transform: rotate(10deg) scale(1.2);
+  }
+
+  @keyframes flashing {
+    0% , 40% , 60%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+      width: 200%;
+      height: 200%;
+    }
+  }
+
 
   /*--------------------------------------------------------------
   # Contact
   --------------------------------------------------------------*/
-  .contact .info, .contact{
+  .contact{
+    background-color: #fff;
     width: 100%;
-    background: #fff;
+  }
+  .contact .container .info{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
   }
   .contact .info i , .contact i {
     font-size: 20px;
@@ -508,6 +578,7 @@ body {
   }
   .contact .info .email, .contact .phone {
     margin-top: 40px;
+    display: block;
   }
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .phone:hover i {
     background: #0563bb;
@@ -982,7 +1053,7 @@ body {
   }
 
   /*show*/
-  .about{
+  /* .about{
     display: none;
   }
   #Filter{
@@ -1003,7 +1074,7 @@ body {
   #portfolio-flters{
     display: inline-block;
   }
-  
+   */
   @media (max-width: 992px){
     #portfolio-flters{
       display: grid;
