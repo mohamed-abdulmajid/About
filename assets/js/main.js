@@ -199,57 +199,6 @@
   });
 
   /**
-   * Initiate portfolio lightbox 
-   */
-  const portfolioLightbox = GLightbox({
-    selector: '.portfolio-lightbox'
-  });
-
-  /**
-   * Initiate portfolio details lightbox 
-   */
-  const portfolioDetailsLightbox = GLightbox({
-    selector: '.portfolio-details-lightbox',
-    width: '90%',
-    height: '90vh'
-  });
-
-  /**
-   * Portfolio details slider
-   */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
-   * Testimonials slider
-   */
-  new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
@@ -269,44 +218,44 @@ voice
 */
 var vid = document.getElementById("myAudio");
 
-function playAduio() { 
+window.onload = function playAduio()  {
   vid.play(); 
 }
 
     function playVid() { 
       vid.play(); 
-      var about = document.getElementById('about');
-      var Filter = document.getElementById('Filter');
-      var contact = document.getElementById('contact');
-      var footer = document.getElementById('footer');
-      var icon = document.getElementById('mobile-nav-toggle');
-      var navbar = document.getElementById('navbar');
-      var adio = document.getElementById("audio");
+  //     var about = document.getElementById('about');
+  //     var Filter = document.getElementById('Filter');
+  //     var contact = document.getElementById('contact');
+  //     var footer = document.getElementById('footer');
+  //     var icon = document.getElementById('mobile-nav-toggle');
+  //     var navbar = document.getElementById('navbar');
+  //     var adio = document.getElementById("audio");
       
-       if (about.style.display === 'block' ||
-           Filter.style.display === 'block'||
-           contact.style.display === 'block'||
-           footer.style.display === 'block'||
-           icon.style.display === 'block'||
-           navbar.style.display === 'block'||
-           adio.style.display === 'none'
-       ) {
-        about.style.display = 'none';
-        Filter.style.display = 'none';
-        contact.style.display = 'none';
-        footer.style.display = 'none';
-        icon.style.display = 'none';
-        navbar.style.display = 'none';
-        adio.style.display = 'block';
-      } else {
-        about.style.display = 'block';
-        Filter.style.display = 'block';
-        contact.style.display = 'block';
-        footer.style.display = 'block';
-        navbar.style.display = 'block';
-        icon.style.display = 'block';
-        adio.style.display = 'none';
-  }
+  //      if (about.style.display === 'block' ||
+  //          Filter.style.display === 'block'||
+  //          contact.style.display === 'block'||
+  //          footer.style.display === 'block'||
+  //          icon.style.display === 'block'||
+  //          navbar.style.display === 'block'||
+  //          adio.style.display === 'none'
+  //      ) {
+  //       about.style.display = 'none';
+  //       Filter.style.display = 'none';
+  //       contact.style.display = 'none';
+  //       footer.style.display = 'none';
+  //       icon.style.display = 'none';
+  //       navbar.style.display = 'none';
+  //       adio.style.display = 'block';
+  //     } else {
+  //       about.style.display = 'block';
+  //       Filter.style.display = 'block';
+  //       contact.style.display = 'block';
+  //       footer.style.display = 'block';
+  //       navbar.style.display = 'block';
+  //       icon.style.display = 'block';
+  //       adio.style.display = 'none';
+  // }
     } 
     function pauseVid() { 
       vid.pause(); 
@@ -315,3 +264,4 @@ function playAduio() {
     function go(loc) {
       document.getElementById('MENUview').src = loc;
     }
+
