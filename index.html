@@ -1,701 +1,753 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-   <meta charset="utf-8">
+
+<head>
+  <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Mohamed's Abdulmajid CV</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <script src="https://kit.fontawesome.com/e39d260dfe.js" crossorigin="anonymous"></script>
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    </head>
-    <body>
-        <i class="bi bi-list mobile-nav-toggle d-xl-none" id="mobile-nav-toggle"></i>
-           <header id="header" class="d-flex flex-column justify-content-center">
-            <nav id="navbar" class="navbar nav-menu">
-                <ul>
-                     
-                    <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span>HOME</span></a></li>
-                    <li><a href="#about" class="nav-link scrollto "><i class="bx bx-user"></i><span>About</span></a></li>
-                    <li><a href="#gallary" class="nav-link scrollto "><i class="fas fa-image"></i><span>gallary</span></a></li>
-                    <li><a href="#Filter" class="nav-link scrollto "><i class="bx bx-file-blank"></i><span>Filter</span></a></li>
-                    <li><a href="#contact" class="nav-link scrollto "><i class="bx bx-envelope"></i><span>Contact</span></a></li>
-                    <li id="hrstyle"><hr><hr></li>
-                    <li><a onclick="playAduio()"class="nav-link scrollto stop"><i class="bi bi-play"></i><span>play Audio again</span></a></li>
-                    <li><a onclick="pauseVid()"class="nav-link scrollto stop"><i class="bi bi-stop"></i><span>puse Audio</span></a></li>
-                </ul>
-            </nav>
-        </header>
-       
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
 
-      <!--"""""""""""""""""""""""""""""""""HOme"""""""""""""""""""""""""""""""""""""""""""-->
-        <section id="hero" class="d-flex flex-column justify-content-center">
-            <div class="container" data-aos="zoom-in" data-aos-delay="100">
-                <h1>Muhamed Abdulmajid</h1>
-                    <p>I'm <span class="typed" data-typed-items="Actor ,Youtuber , a Voice Over"></span></p>
-                    <div class="social-links">
-                      <a href="https://twitter.com/muhamed_abm" class="twitter"><i class="bx bxl-twitter"></i></a>
-                      <a href="https://www.linkedin.com/in/mohamed-abdulmajid-94117b21a/" class="google-plus"><i class="bi bi-linkedin"></i></i></a>
-                      <a href="https://www.facebook.com/muhamedabdulmajid97" class="facebook"><i class="bx bxl-facebook"></i></a>
-                      <a href="https://www.instagram.com/muhamedabdulmajid/" class="instagram"><i class="bx bxl-instagram"></i></a>
-                      <a href="https://api.whatsapp.com/send/?phone=201019006828&text&app_absent=0" class="google-plus"><i class="bx bxl-whatsapp"></i></a>
-                      <a href="https://www.youtube.com/c/MuhamedAbdulmajid" class="google-plus"><i class="bi bi-youtube"></i></i></a>
+<body>
+  <i class="bi bi-list mobile-nav-toggle d-xl-none" id="mobile-nav-toggle"></i>
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
 
-            </div>
-             <div class="adio" id="audio">
-                        <audio id="myAudio" hidden>
-                         <source src="./assets/audio/audio.ogg" type="audio/ogg">
-                         <source src="./assets/audio/audio.mp3" type="audio/mpeg">
-                         Your browser does not support the audio element.
-                       </audio>
-                         <!-- <a onclick="playVid()" class="play" href="#about"><i class="bi bi-play"></i></a> -->
-                        </div>
-            </div>
-        </section>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i><span>HOME</span></a></li>
+        <li><a href="#about" class="nav-link scrollto "><i class="bx bx-user"></i><span>About</span></a></li>
+        <li><a href="#gallary" class="nav-link scrollto "><i class="fas fa-image"></i><span>gallary</span></a></li>
+        <li><a href="#Filter" class="nav-link scrollto "><i class="bx bx-file-blank"></i><span>Filter</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto "><i class="bx bx-envelope"></i><span>Contact</span></a></li>
+        <li><a href="#reals" class="nav-link scrollto "><i class="bi bi-camera-reels"></i><span>More Reals</span></a>
+        </li>
+        <li id="hrstyle">
+          <hr>
+          <hr>
+        </li>
+        <li><a onclick="playAduio()" class="nav-link scrollto stop"><i class="bi bi-play"></i><span>play Audio
+              again</span></a></li>
+        <li><a onclick="pauseVid()" class="nav-link scrollto stop"><i class="bi bi-stop"></i><span>puse Audio</span></a>
+        </li>
 
-<main id="main">
-<!--"""""""""""""""""""""""""""""""""ABOUT"""""""""""""""""""""""""""""""""""""""""""-->
-        <section id="about" class="about">
-            <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                    <h2>About</h2>
-                    <p>An actor, I started in 2014, I participated in several independent theater groups in Alexandria, and I had no luck in implementing any theatrical show. 1 » le3bt El 3Qoul "( Minds game ) 2017
-                      After completing the theatrical performance, I performed in the exams of the Higher Institute for Dramatic Arts, and I had no luck this time again, but I don’t know giving up .. I went to work in independent films.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-8 pt-4 pt-lg-0 content">
-                        <h3>Actor</h3>
-                        
-                        <div class="row">
-                            <div class="col-lg-6">
-                              <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>10 july 1997</span></li>
-                               
-                                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+20 1019006828</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Alexandria</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>Arabic , English</span></li>
-                              </ul>
-                            </div>
-                            <div class="col-lg-6">
-                              <ul>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's degree of Computers</span></li>
-                                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mohamedabdulmajidgm@gmail.com</span></li>
-                               
-                                
-                              </ul>
-                            </div>
-                          </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-<!--"""""""""""""""""""""""""""""""""Gallary"""""""""""""""""""""""""""""""""""""""""""-->
-        <section class="gallary" id="gallary">
-          <div class="section-title">
-            <h2>Gallary </h2> 
-          </div>
-          <div class="container" data-aos="fade-up">
-              <div class="box">
-                <div class="img">
-                  <img src="assets/img/gallary/hero-bg.jpg" alt="">
-                </div>
-              </div>
-              <div class="box">
-                <div class="img">
-                  <img src="assets/img/gallary/PicsArt_02-20-08.35.11.jpg" alt="">
-                </div>
-              </div>
-              <div class="box">
-                <div class="img">
-                  <img src="assets/img/gallary/IMG_20220305_010949.jpg" alt="">
-                </div>
-              </div>            
+      </ul>
+    </nav>
+  </header>
 
-              <div class="box">
-                <div class="img">
-                  <img src="assets/img/gallary/profile-img.jpeg" alt="">
-                </div>
-              </div>
 
-              <div class="box">
-                <div class="img">
-                  <img src="assets/img/gallary/Remini20220220201213930.jpg" alt="">
-                </div>
-              </div>
-              <div class="box">
-                <div class="img">
-                  <img src="assets/img/gallary/IMG_20210908_203434.jpg" alt="">
-                </div>
-              </div>
-              <div class="box">
-                <div class="img">
-                  <img src="assets/img/gallary/Remini20210511104406803.jpg" alt="">
-                </div>
-              </div>
-          </div>
-        </section>
+  <!--"""""""""""""""""""""""""""""""""HOme"""""""""""""""""""""""""""""""""""""""""""-->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Muhamed Abdulmajid</h1>
+      <p>I'm <span class="typed" data-typed-items="Actor ,Youtuber , a Voice Over"></span></p>
+      <div class="social-links">
+        <a href="https://twitter.com/muhamed_abm" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-abdulmajid-94117b21a/" class="google-plus"><i
+            class="bi bi-linkedin"></i></i></a>
+        <a href="https://www.facebook.com/muhamedabdulmajid97" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/muhamedabdulmajid/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=201019006828&text&app_absent=0" class="google-plus"><i
+            class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.youtube.com/c/MuhamedAbdulmajid" class="google-plus"><i class="bi bi-youtube"></i></i></a>
 
-<!-- <section id="Filter" class="portfolio section-bg"> -->
-  <div class="container" data-aos="fade-up">
-    <div class="section-title">
-      <h2>Filter Part </h2> 
-    </div>
-    <div class="row">
-      <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-        <centre style="padding-top:15px ;">
-          <ul id="portfolio-flters">
-            <li data-filter=".filter-Facts" class="btn">Facts</li>
-            <li data-filter=".filter-WORK"  class="btn">ABOUT MY CAREER</li>
-            <li data-filter=".filter-Voice" class="btn">Voice Over work</li>
-          </ul>
-        </centre>
+      </div>
+      <div class="adio" id="audio">
+        <audio id="myAudio" hidden>
+          <source src="./assets/audio/audio.ogg" type="audio/ogg">
+          <source src="./assets/audio/audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <!-- <a onclick="playVid()" class="play" href="#about"><i class="bi bi-play"></i></a> -->
       </div>
     </div>
+  </section>
 
-
-    
-    <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-      <section id="facts" class="facts portfolio-item filter-Facts">
-        <div class="container" data-aos="fade-up">
-      
-          <div class="section-title">
-            <h2>Facts</h2>
-            
-          </div>
-      
-          <div class="row">
-      
-            <div class="col-lg-3 col-md-6">
-              <div class="count-box">
-                <i class="bi bi-film"></i>
-                <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter"></span>
-                <p>num of movies</p>
-              </div>
-            </div>
-      
-            <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-              <div class="count-box">
-                <i class="bi bi-thunderbolt-fill"></i>
-                <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1" class="purecounter"></span>
-                <p>num of theaters</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box">
-                <i class="bi bi-voicemail"></i>
-                <span data-purecounter-start="0" data-purecounter-end="30 " data-purecounter-duration="1" class="purecounter"></span>
-                <p>Voice Over</p>
-              </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-              <div class="count-box">
-                <i class="bi bi-activity"></i>
-                <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-                <p>pending</p>
-              </div>
-            </div>
-            
-      
-          </div>
-      
-         
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/omB0toXH_Ug?controls=0" frameborder="0" allowfullscreen style="border-radius: 12px;"></iframe>
-      
-      
+  <main id="main">
+    <!--"""""""""""""""""""""""""""""""""ABOUT"""""""""""""""""""""""""""""""""""""""""""-->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About</h2>
+          <p>An actor, I started in 2014, I participated in several independent theater groups in Alexandria, and I had
+            no luck in implementing any theatrical show. 1 » le3bt El 3Qoul "( Minds game ) 2017
+            After completing the theatrical performance, I performed in the exams of the Higher Institute for Dramatic
+            Arts, and I had no luck this time again, but I don’t know giving up .. I went to work in independent films.
+          </p>
         </div>
-      </section>
-      
-      <section class="page-section portfolio-item filter-WORK" id="work">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>ABOUT MY CAREER</h2>
-            
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
           </div>
-          <ul class="timeline">
-                <li>
-                    <div class="timeline-image" ><img class="rounded-circle img-fluid" src="assets/img/portfolio/8.jpg" alt="..." /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>2016-2017</h4>
-                            <h4 class="subheading">infinity </h4>
-                        </div>
-                        <div class="timeline-body">
-                          <p class="text-muted">short film</p>
-                          <p class="text-muted">Character : mahmoud </p>
-                          <p class="text-muted">74k view </p>
-                        <a href="https://youtu.be/xIH71RMo_hY">Go to watch it !</a>
-                        
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/9.jpg" alt="..." /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>2016-2017</h4>
-                            <h4 class="subheading">Emergency طوارئ</h4>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted"> short film </p>
-                          <p class="text-muted">Character : mahmoud </p>
-                          <p class="text-muted">17 million view </p>
-                          <a href="https://youtu.be/R4wG1IS4kF4">Go to watch it !</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/7.jpg" alt="..." /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>2017-2018</h4>
-                            <h4 class="subheading">Nour </h4>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Mini series</p>
-                          <p class="text-muted">Character : mahmoud </p>
-                          <p class="text-muted">3.775.000  view </p>
-                          <a href="https://youtu.be/R2fSdgXYDc8">Go to watch it !</a>
-                        </div>
-                    </div>
-                </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/2.jpg" alt="..." /></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4>2017-2018</h4>
-                            <h4 class="subheading">Capital of Happiness عاصمة السعادة</h4>
-                        </div>
-                        <div class="timeline-body"><p class="text-muted">Short fictional film</p>
-                          <p class="text-muted">Character : khaled </p>
-                          <p class="text-muted">1milion  view </p>
-                          <a href="https://youtu.be/7z-wpHuxHqQ">Go to watch it !</a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                  <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/4.jpg" alt="..." /></div>
-                  <div class="timeline-panel">
-                      <div class="timeline-heading">
-                          <h4>2018-2019</h4>
-                          <h4 class="subheading">Bondok  </h4>
-                      </div>
-                      <div class="timeline-body"><p class="text-muted"> short film </p>
-                        <p class="text-muted">Character : Bondok </p>
-                        <p class="text-muted">170k  view </p>
-                        <a href="https://youtu.be/UKgrnHggaw0">Go to watch it !</a>
-                      </div>
-                  </div>
-              </li>
-      
-              <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/3.jpg" alt="..." /></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>2018-2019</h4>
-                        <h4 class="subheading">The Magic Eye  season 3</h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">Guest of hono , Mini series</p>
-                      <p class="text-muted">Character : Youssef </p>
-                      <p class="text-muted">1.1 million view </p>
-                      <a href="https://youtu.be/HSedrVuAzbQ">Go to watch it !</a>
-                    </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Actor</h3>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>10 july 1997</span></li>
+
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+20 1019006828</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Alexandria</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Languages:</strong> <span>Arabic , English</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>24</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor's degree of
+                      Computers</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong>
+                    <span>mohamedabdulmajidgm@gmail.com</span>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--"""""""""""""""""""""""""""""""""Gallary"""""""""""""""""""""""""""""""""""""""""""-->
+    <section class="gallary" id="gallary">
+      <div class="section-title">
+        <h2>Gallary </h2>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="box">
+          <div class="img">
+            <img src="assets/img/gallary/hero-bg.jpg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="assets/img/gallary/PicsArt_02-20-08.35.11.jpg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="assets/img/gallary/IMG_20220305_010949.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="assets/img/gallary/profile-img.jpeg" alt="">
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img src="assets/img/gallary/Remini20220220201213930.jpg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="assets/img/gallary/IMG_20210908_203434.jpg" alt="">
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="assets/img/gallary/Remini20210511104406803.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="Filter" class="portfolio section-bg"> -->
+    <div class="container" data-aos="fade-up" id="Filter">
+      <div class="section-title">
+        <h2>Filter Part </h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <centre style="padding-top:15px ;">
+            <ul id="portfolio-flters">
+              <li data-filter=".filter-Facts" class="btn">Facts</li>
+              <li data-filter=".filter-WORK" class="btn">ABOUT MY CAREER</li>
+              <li data-filter=".filter-Voice" class="btn">Voice Over work</li>
+            </ul>
+          </centre>
+        </div>
+      </div>
+
+
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <section id="facts" class="facts portfolio-item filter-Facts">
+          <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+              <h2>Facts</h2>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-lg-3 col-md-6">
+                <div class="count-box">
+                  <i class="bi bi-film"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1"
+                    class="purecounter"></span>
+                  <p>num of movies</p>
                 </div>
-            </li>
-      
-                <li>
-                  <div class="timeline-image">
-                    <h4>
-                      You can
-                      <br />
-                       watch
-                      <br />
-                      it Soon!
+              </div>
+
+              <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                <div class="count-box">
+                  <i class="bi bi-thunderbolt-fill"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="1" data-purecounter-duration="1"
+                    class="purecounter"></span>
+                  <p>num of theaters</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                <div class="count-box">
+                  <i class="bi bi-voicemail"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="30 " data-purecounter-duration="1"
+                    class="purecounter"></span>
+                  <p>Voice Over</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+                <div class="count-box">
+                  <i class="bi bi-activity"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+                    class="purecounter"></span>
+                  <p>pending</p>
+                </div>
+              </div>
+
+
+            </div>
+
+
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/omB0toXH_Ug?controls=0" frameborder="0"
+              allowfullscreen style="border-radius: 12px;"></iframe>
+
+
+          </div>
+        </section>
+
+        <section class="page-section portfolio-item filter-WORK" id="work">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>ABOUT MY CAREER</h2>
+
+            </div>
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/8.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2016-2017</h4>
+                    <h4 class="subheading">infinity </h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">short film</p>
+                    <p class="text-muted">Character : mahmoud </p>
+                    <p class="text-muted">74k view </p>
+                    <a href="https://youtu.be/xIH71RMo_hY">Go to watch it !</a>
+
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/9.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2016-2017</h4>
+                    <h4 class="subheading">Emergency طوارئ</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted"> short film </p>
+                    <p class="text-muted">Character : mahmoud </p>
+                    <p class="text-muted">17 million view </p>
+                    <a href="https://youtu.be/R4wG1IS4kF4">Go to watch it !</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/7.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2017-2018</h4>
+                    <h4 class="subheading">Nour </h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Mini series</p>
+                    <p class="text-muted">Character : mahmoud </p>
+                    <p class="text-muted">3.775.000 view </p>
+                    <a href="https://youtu.be/R2fSdgXYDc8">Go to watch it !</a>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/2.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2017-2018</h4>
+                    <h4 class="subheading">Capital of Happiness عاصمة السعادة</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Short fictional film</p>
+                    <p class="text-muted">Character : khaled </p>
+                    <p class="text-muted">1milion view </p>
+                    <a href="https://youtu.be/7z-wpHuxHqQ">Go to watch it !</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/4.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2018-2019</h4>
+                    <h4 class="subheading">Bondok </h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted"> short film </p>
+                    <p class="text-muted">Character : Bondok </p>
+                    <p class="text-muted">170k view </p>
+                    <a href="https://youtu.be/UKgrnHggaw0">Go to watch it !</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/3.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2018-2019</h4>
+                    <h4 class="subheading">The Magic Eye season 3</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Guest of hono , Mini series</p>
+                    <p class="text-muted">Character : Youssef </p>
+                    <p class="text-muted">1.1 million view </p>
+                    <a href="https://youtu.be/HSedrVuAzbQ">Go to watch it !</a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image">
+                  <h4>
+                    You can
+                    <br />
+                    watch
+                    <br />
+                    it Soon!
                   </h4>
-      
+
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2019-2020</h4>
+                    <h4 class="subheading">Go Migo </h4>
                   </div>
-                  <div class="timeline-panel">
-                      <div class="timeline-heading">
-                          <h4>2019-2020</h4>
-                          <h4 class="subheading">Go Migo  </h4>
-                      </div>
-                      <div class="timeline-body"><p class="text-muted"> Guest of hono , episode (not shown yet) </p></div>
+                  <div class="timeline-body">
+                    <p class="text-muted"> Guest of hono , episode (not shown yet) </p>
                   </div>
+                </div>
               </li>
               <li class="timeline-inverted">
                 <div class="timeline-image">
                   <h4>
-                  You can
-                  <br />
-                   watch
-                  <br />
-                  it Soon!
-              </h4>
-            </div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>2019-2020</h4>
-                        <h4 class="subheading">Closed Boxes</h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">(not shown yet) short film , Horror</p></div>
+                    You can
+                    <br />
+                    watch
+                    <br />
+                    it Soon!
+                  </h4>
                 </div>
-            </li>
-      
-      
-              <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/1.jpg" alt="..." /></div>
                 <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4>2019-2020</h4>
-                        <h4 class="subheading">Reflection إنعكاس </h4>
-                    </div>
-                    <div class="timeline-body"><p class="text-muted">short film</p>
-                    
-                      <a href="https://youtu.be/iYxXJZO0oRM">Go to watch it !</a>
-                    </div>
-                </div>
-            </li>
-      
-            <li class="timeline-inverted">
-              <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/5.jpg" alt="..." /></div>
-              <div class="timeline-panel">
                   <div class="timeline-heading">
-                      <h4>2019-2020</h4>
-                      <h4 class="subheading">The Experience التجربة</h4>
+                    <h4>2019-2020</h4>
+                    <h4 class="subheading">Closed Boxes</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">(not shown yet) short film , Horror</p>
+                  </div>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/1.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2019-2020</h4>
+                    <h4 class="subheading">Reflection إنعكاس </h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">short film</p>
+
+                    <a href="https://youtu.be/iYxXJZO0oRM">Go to watch it !</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/5.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2019-2020</h4>
+                    <h4 class="subheading">The Experience التجربة</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">film </p>
-                  
-                 
-                  
+
+
+
                   </div>
-              </div>
-            </li>
-      
-            <li >
-              <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/6.jpg" alt="..." /></div>
-              <div class="timeline-panel">
+                </div>
+              </li>
+
+              <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/6.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
                   <div class="timeline-heading">
-                      <h4>2019-2020</h4>
-                      <h4 class="subheading">الحبة الزرقاء</h4>
+                    <h4>2019-2020</h4>
+                    <h4 class="subheading">الحبة الزرقاء</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">film </p>
                     <p class="text-muted">Character : Akram </p>
-                  
+
                     <a href="https://youtu.be/DQmA8iyUd9E">Go to watch it !</a>
-                  
+
                   </div>
-              </div>
-            </li>
-
-            <li class="timeline-inverted">
-              <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/10.jpg" alt="..." /></div>
-              <div class="timeline-panel">
-                  <div class="timeline-heading">
-                      <h4>2020-2021</h4>
-                      <h4 class="subheading">Go without return ذهاب بلا عودة </h4>
-                  </div>
-                  <div class="timeline-body"><p class="text-muted">(not shown yet) film </p></div>
-              </div>
-            </li>
-
-
-            <li>
-              <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/12.png" alt="..." /></div>
-              <div class="timeline-panel">
-                  <div class="timeline-heading">
-                      <h4>2020-2021</h4>
-                      <h4 class="subheading">حياه بين عالمين - الحياه مغامرة</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">
-                    The story began .. I can appear crazy .. not normal , but crazy .. is the truth
-                              <br>
-                              I can actually see more than anyone else,
-                              <br>
-                              adventurous for me .. The truth discovery ..
-
-                  </p>
-                  <a href="https://www.youtube.com/watch?v=u9YhVbS1x5c">Go to watch it !</a>
                 </div>
-              </div>
-            </li>
+              </li>
 
-            <li class="timeline-inverted">
-              <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/13.jpg" alt="..." /></div>
-              <div class="timeline-panel">
+              <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/10.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
                   <div class="timeline-heading">
-                      <h4>2021-2022</h4>
-                      <h4 class="subheading"> Disturbance - اضطراب</h4>
+                    <h4>2020-2021</h4>
+                    <h4 class="subheading">Go without return ذهاب بلا عودة </h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">(not shown yet) film </p>
+                  </div>
+                </div>
+              </li>
+
+
+              <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/12.png"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2020-2021</h4>
+                    <h4 class="subheading">حياه بين عالمين - الحياه مغامرة</h4>
                   </div>
                   <div class="timeline-body">
                     <p class="text-muted">
-                    Short film
-                    <br>
+                      The story began .. I can appear crazy .. not normal , but crazy .. is the truth
+                      <br>
+                      I can actually see more than anyone else,
+                      <br>
+                      adventurous for me .. The truth discovery ..
+
+                    </p>
+                    <a href="https://www.youtube.com/watch?v=u9YhVbS1x5c">Go to watch it !</a>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/portfolio/13.jpg"
+                    alt="..." /></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2021-2022</h4>
+                    <h4 class="subheading"> Disturbance - اضطراب</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Short film
+                      <br>
                       You can
                       <br />
-                       watch
+                      watch
                       <br />
                       it Soon!
-                  </p>
-                  
+                    </p>
+
+                  </div>
                 </div>
-              </div>
-            </li>
-      
-                      <li class="timeline-inverted">
-                          <div class="timeline-image">
-                              <h4>
-                                  Be Part
-                                  <br />
-                                  Of Our
-                                  <br />
-                                  Story!
-                              </h4>
-                          </div>
-                      </li>
+              </li>
+
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>
+                    Be Part
+                    <br />
+                    Of Our
+                    <br />
+                    Story!
+                  </h4>
+                </div>
+              </li>
             </ul>
-        </div>
-      </section>
-
-      
-      <section class="page-section portfolio-item filter-Voice" id="Voice">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>ABOUT MY Voice Over</h2>
           </div>
-            <div class="row">
-                <div class="dropdown col-sm-4">
-                  <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
-                    <i class="bi bi-youtube"></i> Youtube
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
-                    <li><h6 class="dropdown-header" style="color: red;"> <i class="bi bi-youtube"></i> Youtube</h6></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li onclick="go('https://www.youtube.com/embed/NpKF2c2czOg?controls=0')" class="dropdown-item">LINKCU platform (official)</li>
-                    <li onclick="go('https://www.youtube.com/embed/y_zNcqpCwgQ?controls=0')" class="dropdown-item" >Bank Al Ahly (unofficial)</li>
-                    <li onclick="go('https://www.youtube.com/embed/u0mFUjRnxRk?controls=0')" class="dropdown-item">EBI ADS (unofficial)</li>
-                    <li onclick="go('https://www.youtube.com/embed/CVgKQmFHtXI?controls=0')" class="dropdown-item">Pepsi</li>
-                    <li onclick="go('https://www.youtube.com/embed/j11UNGTOFW4?controls=0')" class="dropdown-item">سباقك الحقيقي مع نفسك</li>
-                    <li onclick="go('https://www.youtube.com/embed/1roagKqyKPw?controls=0')" class="dropdown-item">BOLT</li>
-                    <li onclick="go('https://www.youtube.com/embed/E-qlNhQsCrs?controls=0')" class="dropdown-item">كنور</li>
-                    <li onclick="go('https://www.youtube.com/embed/g1-TuYJlagg?controls=0')" class="dropdown-item">Pepsi , Chipsy</li>
-                    <li onclick="go('https://www.youtube.com/embed/oVC6q06DAdI?controls=0')" class="dropdown-item">A Bug's Life</li>
-                    <li onclick="go('https://www.youtube.com/embed/NUHNB3pU6yQ?controls=0')" class="dropdown-item">Sodic (unofficial)</li>
-                    <li onclick="go('https://www.youtube.com/embed/TcvLKBYFhxo?controls=0')" class="dropdown-item">the joker</li>
-                    <li onclick="go('https://www.youtube.com/embed/cI91A8bukKU?controls=0')" class="dropdown-item">Princess and the frog</li>
-                    <li onclick="go('https://www.youtube.com/embed/YYrnA_9PFHE?controls=0')" class="dropdown-item">الفار الطباخ</li>
-                  </ul>
-                </div>
-                <div class="dropdown col-sm-4">
-                  <button class="btn btn-outline-primary dropdown-toggle btn-large" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
-                    <i class="bx bxl-facebook"></i> Facebook
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
-                    <li><h6 class="dropdown-header" style="color: blue;"> <i class="bx bxl-facebook"></i> Facebook</h6></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=280&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1577587015722733%2F&show_text=false&width=560&t=0')" class="dropdown-item">الامير الضفدع - The Princess and the Frog</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1576707199144048%2F&show_text=false&width=560&t=0')" class="dropdown-item">Ratatouille</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1591261007688667%2F&show_text=false&width=560&t=0')" class="dropdown-item">Aladdin</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1582082501939851%2F&show_text=false&width=560&t=0')" class="dropdown-item">Beauty and the beast </li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1580392515442183%2F&show_text=false&width=560&t=0')" class="dropdown-item">Spider man</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1594954260652675%2F&show_text=false&width=560&t=0')" class="dropdown-item">Mulan</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1602842139863887%2F&show_text=false&width=560&t=0')" class="dropdown-item">Ratatouille</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1611831588964942%2F&show_text=false&width=560&t=0')" class="dropdown-item">رواية تانجل</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1609884295826338%2F&show_text=false&width=560&t=0')" class="dropdown-item">Simba</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1623082921173142%2F&show_text=false&width=560&t=0')" class="dropdown-item">خليك انت - stay you</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1621207241360710%2F&show_text=false&width=560&t=0')" class="dropdown-item">Zootopia</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1618717324943035%2F&show_text=false&width=560&t=0')" class="dropdown-item"> حياة حشره</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1670158556465578%2F&show_text=false&width=560&t=0')" class="dropdown-item">Finding Nemo</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1687829348031832%2F&show_text=false&width=560&t=0')" class="dropdown-item">Moana</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1766355496845883%2F&show_text=false&width=560&t=0')" class="dropdown-item">Polt</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1886933504788081%2F&show_text=false&width=560&t=0')" class="dropdown-item">مشاهد مجمعه</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1971067343041363%2F&show_text=false&width=560&t=0')" class="dropdown-item">Over The Moon</li>
-                  </ul>
-                </div>
-                <div class="dropdown col-sm-4">
-                  <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
-                    Reals
-                  </button>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
-                    <li><h6 class="dropdown-header" style="color: yellow;"><i class="bi bi-camera-reels"></i> Reals</h6></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F340389288244306%2F&show_text=false&width=267&t=0')" class="dropdown-item"> إنعدام الانسانيه  </li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F553521989773420%2F&show_text=true&width=267&t=0')" class="dropdown-item">المطلقه</li>
-                    <li onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F602252431135004%2F&show_text=false&width=267&t=0')" class="dropdown-item"> اطمن</li>
-                  </ul>
-                </div>
-            </div>
+        </section>
 
-            <div class="row">
-              <div class="col-sm-12"> 
-                <iframe id="MENUview" src="https://www.youtube.com/embed/NpKF2c2czOg?controls=0" class="card-img-top" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-              </div>             
-            </div>
-          </div>
-          <div class="reals">
+
+        <section class="page-section portfolio-item filter-Voice" id="Voice">
+          <div class="container" data-aos="fade-up">
             <div class="section-title">
-              <h2>Reals</h2>
+              <h2>ABOUT MY Voice Over</h2>
             </div>
-            <div class="container">
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7147779584178621701" data-video-id="7147779584178621701" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>الوقت المناسب!! ... <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="هيستجيب" target="_blank" href="https://www.tiktok.com/tag/%D9%87%D9%8A%D8%B3%D8%AA%D8%AC%D9%8A%D8%A8?refer=embed">#هيستجيب</a> </p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7147779605552810758?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7147414554106957061" data-video-id="7147414554106957061" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>لو حظك قليل!!   .. <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الحظ" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D8%B8?refer=embed">#الحظ</a> </p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7147414565930814213?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7147354901151108357" data-video-id="7147354901151108357" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>مش هتقدر تعاند!! <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="القدر" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%82%D8%AF%D8%B1?refer=embed">#القدر</a> <a title="الرضا" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B1%D8%B6%D8%A7?refer=embed">#الرضا</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> </p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7147354915898133253?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7145173344072092934" data-video-id="7145173344072092934" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>القرار قرارك!!!    ... <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="المستقبل" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D9%82%D8%A8%D9%84?refer=embed">#المستقبل</a></p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7145173394806278918?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7144445465554095366" data-video-id="7144445465554095366" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>الاكتئاب موضوع مش سهل ! ،، <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الاكتئاب" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%A7%D9%83%D8%AA%D8%A6%D8%A7%D8%A8?refer=embed">#الاكتئاب</a> <a title="الحزن" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D8%B2%D9%86?refer=embed">#الحزن</a></p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7144445489143106309?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7144024291389082886" data-video-id="7144024291389082886" data-embed-from="oembed" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>الخوف من الماضي... <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a></p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7144024326944393989?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7143650981245357318" data-video-id="7143650981245357318" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> خد خطوه جواك .. <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7143651000095034118?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7142595775124557062" data-video-id="7142595775124557062" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مشهد من مشاهد يوم القيامه 🤍!!    ،، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="صاحب" target="_blank" href="https://www.tiktok.com/tag/%D8%B5%D8%A7%D8%AD%D8%A8?refer=embed">#صاحب</a> <a title="صديق_في_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B5%D8%AF%D9%8A%D9%82_%D9%81%D9%8A_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#صديق_في_الله</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7142595768770169605?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7139948462627474693" data-video-id="7139948462627474693" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> جايز تكون انت ! من اصحاب المسؤوليات ؟. ،،،، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7139948486157552389?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7138857961849507077" data-video-id="7138857961849507077" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> اربع حاجات !!    ، ، <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7138857953474054917?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7138480001694928134" data-video-id="7138480001694928134" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> من اعتمد على الله!!     ،،، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الله</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="نصيحه" target="_blank" href="https://www.tiktok.com/tag/%D9%86%D8%B5%D9%8A%D8%AD%D9%87?refer=embed">#نصيحه</a> <a title="نصيحه_واقعيه" target="_blank" href="https://www.tiktok.com/tag/%D9%86%D8%B5%D9%8A%D8%AD%D9%87_%D9%88%D8%A7%D9%82%D8%B9%D9%8A%D9%87?refer=embed">#نصيحه_واقعيه</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7138480010645506821?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7138115738073566470" data-video-id="7138115738073566470" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مفهوم لازم تصحيحه.  ،، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="واستعينو_بقضاء_حوائجكم_بلكتمان" target="_blank" href="https://www.tiktok.com/tag/%D9%88%D8%A7%D8%B3%D8%AA%D8%B9%D9%8A%D9%86%D9%88_%D8%A8%D9%82%D8%B6%D8%A7%D8%A1_%D8%AD%D9%88%D8%A7%D8%A6%D8%AC%D9%83%D9%85_%D8%A8%D9%84%D9%83%D8%AA%D9%85%D8%A7%D9%86?refer=embed">#واستعينو_بقضاء_حوائجكم_بلكتمان</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7138115752951745286?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7137734830040698117" data-video-id="7137734830040698117" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> في رعاية الله!!       ، ، <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="أمل" target="_blank" href="https://www.tiktok.com/tag/%D8%A3%D9%85%D9%84?refer=embed">#أمل</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الله</a> <a title="ربنا_بيحبني" target="_blank" href="https://www.tiktok.com/tag/%D8%B1%D8%A8%D9%86%D8%A7_%D8%A8%D9%8A%D8%AD%D8%A8%D9%86%D9%8A?refer=embed">#ربنا_بيحبني</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7137734861242108677?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7137359001360108806" data-video-id="7137359001360108806" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> أجمل نساء العالم _ <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="أمي" target="_blank" href="https://www.tiktok.com/tag/%D8%A3%D9%85%D9%8A?refer=embed">#أمي</a> <a title="اجمل_نساء_العالم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D8%AC%D9%85%D9%84_%D9%86%D8%B3%D8%A7%D8%A1_%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85?refer=embed">#اجمل_نساء_العالم</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7137359021824428805?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7136974761548188933" data-video-id="7136974761548188933" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> أجمل دعاء للشعراوي ❤️ ،،، <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7136974784054807301?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7136618811091963141" data-video-id="7136618811091963141" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> قليل الأصل ... <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7136618813038693126?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7136229142336441605" data-video-id="7136229142336441605" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> القشايه .. 🤍.        .. <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="أمل" target="_blank" href="https://www.tiktok.com/tag/%D8%A3%D9%85%D9%84?refer=embed">#أمل</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="خليك_ايجابي" target="_blank" href="https://www.tiktok.com/tag/%D8%AE%D9%84%D9%8A%D9%83_%D8%A7%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A?refer=embed">#خليك_ايجابي</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7136229140776848133?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7134755246080838918" data-video-id="7134755246080838918" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> بطل من ذهب!!     ،، <a title="بطل_من_ذهب" target="_blank" href="https://www.tiktok.com/tag/%D8%A8%D8%B7%D9%84_%D9%85%D9%86_%D8%B0%D9%87%D8%A8?refer=embed">#بطل_من_ذهب</a> <a title="اوسكار_فيغيرو" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%88%D8%B3%D9%83%D8%A7%D8%B1_%D9%81%D9%8A%D8%BA%D9%8A%D8%B1%D9%88?refer=embed">#اوسكار_فيغيرو</a> <a title="بطل_اوليمبياد_ريو" target="_blank" href="https://www.tiktok.com/tag/%D8%A8%D8%B7%D9%84_%D8%A7%D9%88%D9%84%D9%8A%D9%85%D8%A8%D9%8A%D8%A7%D8%AF_%D8%B1%D9%8A%D9%88?refer=embed">#بطل_اوليمبياد_ريو</a> <a title="ريو" target="_blank" href="https://www.tiktok.com/tag/%D8%B1%D9%8A%D9%88?refer=embed">#ريو</a> <a title="اولمبياد_لندن" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%88%D9%84%D9%85%D8%A8%D9%8A%D8%A7%D8%AF_%D9%84%D9%86%D8%AF%D9%86?refer=embed">#اولمبياد_لندن</a> <a title="خليك_ايجابي" target="_blank" href="https://www.tiktok.com/tag/%D8%AE%D9%84%D9%8A%D9%83_%D8%A7%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A?refer=embed">#خليك_ايجابي</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="تامر_حسني" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D8%A7%D9%85%D8%B1_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#تامر_حسني</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="مصطفى_حسني" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#مصطفى_حسني</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7134755274715400965?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7134383047515852037" data-video-id="7134383047515852037" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> جودة أفكارك!!    ، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="ماركوس_اوريلوس" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%A7%D8%B1%D9%83%D9%88%D8%B3_%D8%A7%D9%88%D8%B1%D9%8A%D9%84%D9%88%D8%B3?refer=embed">#ماركوس_اوريلوس</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a title="من2000" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%862000?refer=embed">#من2000</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="خليك_ايجابي" target="_blank" href="https://www.tiktok.com/tag/%D8%AE%D9%84%D9%8A%D9%83_%D8%A7%D9%8A%D8%AC%D8%A7%D8%A8%D9%8A?refer=embed">#خليك_ايجابي</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7134383042147175173?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7134012894588587269" data-video-id="7134012894588587269" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> السلم ولا الاسانسير ؟!      ، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7134012913559587589?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7133641185943457029" data-video-id="7133641185943457029" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> ربنا بيحبك ... <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="مصطفى_حسني" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#مصطفى_حسني</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="تامر_حسني" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D8%A7%D9%85%D8%B1_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#تامر_حسني</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7133641190867585798?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7133293345933167877" data-video-id="7133293345933167877" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مثل أجنبي.   ، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a target="_blank" title="♬ GASLIGHT - INJI" href="https://www.tiktok.com/music/GASLIGHT-7086563693013518338?refer=embed">♬ GASLIGHT - INJI</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7132910723402910982" data-video-id="7132910723402910982" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> هو انت فاكر نفسك إيه ؟!     ، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7132910726268340997?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7132562118087429382" data-video-id="7132562118087429382" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> في حياتك جدك و جدتك 🤍.    ،<a title="جدك" target="_blank" href="https://www.tiktok.com/tag/%D8%AC%D8%AF%D9%83?refer=embed">#جدك</a> و <a title="جدتك" target="_blank" href="https://www.tiktok.com/tag/%D8%AC%D8%AF%D8%AA%D9%83?refer=embed">#جدتك</a> <a title="الحياه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D9%8A%D8%A7%D9%87?refer=embed">#الحياه</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7132562116510370566?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7132195949849382150" data-video-id="7132195949849382150" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> إختياراتك !      .. <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7132195943390169861?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7131039865956846853" data-video-id="7131039865956846853" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> متلعبش الدور ده!!     ، <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a title="الشيخ_الشعراوي_رحمه_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A_%D8%B1%D8%AD%D9%85%D9%87_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الشيخ_الشعراوي_رحمه_الله</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="مصطفى_حسني" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#مصطفى_حسني</a> <a title="دور_الضحيه" target="_blank" href="https://www.tiktok.com/tag/%D8%AF%D9%88%D8%B1_%D8%A7%D9%84%D8%B6%D8%AD%D9%8A%D9%87?refer=embed">#دور_الضحيه</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7131039858709662469?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7130347232343166213" data-video-id="7130347232343166213" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> تجربة الفشل !!       ، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7130347255815817989?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7127750051249671429" data-video-id="7127750051249671429" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> استغفرو .. ❤️🌱.       ، <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a title="استغفرالله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D8%B3%D8%AA%D8%BA%D9%81%D8%B1%D8%A7%D9%84%D9%84%D9%87?refer=embed">#استغفرالله</a> <a title="الشيخ_الشعراوي_رحمه_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A_%D8%B1%D8%AD%D9%85%D9%87_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الشيخ_الشعراوي_رحمه_الله</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7127750046531668742?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7127350431008689414" data-video-id="7127350431008689414" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> تدابير الله ❤️ ،، <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="الشيخ_الشعراوي_رحمه_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A_%D8%B1%D8%AD%D9%85%D9%87_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الشيخ_الشعراوي_رحمه_الله</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="المعصيه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%85%D8%B9%D8%B5%D9%8A%D9%87?refer=embed">#المعصيه</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7127350397509257989?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7126975713558777093" data-video-id="7126975713558777093" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> بسيطه .... <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="الشيخ_الشعراوي_رحمه_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A_%D8%B1%D8%AD%D9%85%D9%87_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الشيخ_الشعراوي_رحمه_الله</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7126975709566618374?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7126637255535365381" data-video-id="7126637255535365381" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> جزيتهم اليوم بما صبرو!        ، <a title="الشيخ_الشعراوي_رحمه_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A_%D8%B1%D8%AD%D9%85%D9%87_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الشيخ_الشعراوي_رحمه_الله</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="المعصية_والتوبة" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%85%D8%B9%D8%B5%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%A8%D8%A9?refer=embed">#المعصية_والتوبة</a> <a title="مصطفى_حسني" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#مصطفى_حسني</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7126637247126489861?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7124013481023655174" data-video-id="7124013481023655174" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مفيش مستحيل عندما يشاء الله ❤️ اطمن      <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="عندما_يشاء_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D9%86%D8%AF%D9%85%D8%A7_%D9%8A%D8%B4%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#عندما_يشاء_الله</a> <a title="الشيخ_الشعراوي_رحمه_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A_%D8%B1%D8%AD%D9%85%D9%87_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الشيخ_الشعراوي_رحمه_الله</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="مصطفى_حسني" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#مصطفى_حسني</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7124013475210955525?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7123632703676714245" data-video-id="7123632703676714245" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> التغيير و القدر ،، <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7123632691278727942?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7123314775999778054" data-video-id="7123314775999778054" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> كاميرا خفيه!! لا يسخر قوم من قوم <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="المعصيه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%85%D8%B9%D8%B5%D9%8A%D9%87?refer=embed">#المعصيه</a> <a title="tamerhosny" target="_blank" href="https://www.tiktok.com/tag/tamerhosny?refer=embed">#tamerhosny</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="التنمر" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AA%D9%86%D9%85%D8%B1?refer=embed">#التنمر</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7123314784703302405?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7121804220675755269" data-video-id="7121804220675755269" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> حاجات ناقصه!!       <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="مصطفى_حسني" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#مصطفى_حسني</a> <a title="الشيخ_الشعراوي" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A?refer=embed">#الشيخ_الشعراوي</a> <a title="الشيخ_الشعراوي_رحمه_الله" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D8%A7%D9%84%D8%B4%D8%B9%D8%B1%D8%A7%D9%88%D9%8A_%D8%B1%D8%AD%D9%85%D9%87_%D8%A7%D9%84%D9%84%D9%87?refer=embed">#الشيخ_الشعراوي_رحمه_الله</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7121804220261403398?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7121449813907983621" data-video-id="7121449813907983621" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> ضميرك!            <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="المعصيه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%85%D8%B9%D8%B5%D9%8A%D9%87?refer=embed">#المعصيه</a> <a title="المعصية_والتوبة" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%85%D8%B9%D8%B5%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%AA%D9%88%D8%A8%D8%A9?refer=embed">#المعصية_والتوبة</a> <a title="مصطفى_حسني" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%B5%D8%B7%D9%81%D9%89_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#مصطفى_حسني</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7121449824913738501?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7121046572162485510" data-video-id="7121046572162485510" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> هتوصل القمر!   <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="tamerhosny" target="_blank" href="https://www.tiktok.com/tag/tamerhosny?refer=embed">#tamerhosny</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7121046572057971462?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7119966840280894726" data-video-id="7119966840280894726" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>لوحدك!</p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7119966835223251717?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7119555467885530374" data-video-id="7119555467885530374" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> خليك النوع الأول <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="النوع_الاول" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%86%D9%88%D8%B9_%D8%A7%D9%84%D8%A7%D9%88%D9%84?refer=embed">#النوع_الاول</a> <a title="فطره" target="_blank" href="https://www.tiktok.com/tag/%D9%81%D8%B7%D8%B1%D9%87?refer=embed">#فطره</a> <a title="مبادرة_فطرة" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9_%D9%81%D8%B7%D8%B1%D8%A9?refer=embed">#مبادرة_فطرة</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7119555494213733126?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7119196257054215429" data-video-id="7119196257054215429" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> شكرا يا صحبي .. <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> لازم نتكلم فيه<a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="الصحاب" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B5%D8%AD%D8%A7%D8%A8?refer=embed">#الصحاب</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7119196255850400518?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7119018108483865861" data-video-id="7119018108483865861" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <a title="كواليس_فيلم_اضطراب" target="_blank" href="https://www.tiktok.com/tag/%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3_%D9%81%D9%8A%D9%84%D9%85_%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8?refer=embed">#كواليس_فيلم_اضطراب</a> <a title="توكتوك" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D9%88%D9%83%D8%AA%D9%88%D9%83?refer=embed">#توكتوك</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7119018078968597253?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7115490491570851077" data-video-id="7115490491570851077" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> كوميديا سوداء <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7115490497486883590?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7115091215023869190" data-video-id="7115091215023869190" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> بلاش تفضح الدنيا ! <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="الحسد_والحقد_والعين_الحاسدة" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AD%D8%B3%D8%AF_%D9%88%D8%A7%D9%84%D8%AD%D9%82%D8%AF_%D9%88%D8%A7%D9%84%D8%B9%D9%8A%D9%86_%D8%A7%D9%84%D8%AD%D8%A7%D8%B3%D8%AF%D8%A9?refer=embed">#الحسد_والحقد_والعين_الحاسدة</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7115091270578178821?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7114381687684943110" data-video-id="7114381687684943110" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مش زي توقعاتك!     <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="ستوريات_انستا" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A%D8%A7%D8%AA_%D8%A7%D9%86%D8%B3%D8%AA%D8%A7?refer=embed">#ستوريات_انستا</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="jetourdancetour" target="_blank" href="https://www.tiktok.com/tag/jetourdancetour?refer=embed">#JetourDanceTour</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7114381694816963333?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7113244919178808582" data-video-id="7113244919178808582" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> يعني !#<a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">موضوع_مهم_جدا </a> #<a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">الساعه_بتاعت_قبل_النوم </a>#<a title="jetourdancetour" target="_blank" href="https://www.tiktok.com/tag/jetourdancetour?refer=embed">JetourDanceTour </a>#<a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">محمد_عبدالمجيد </a>#<a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">motivationalspeaker </a>#<a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">حفز_نفسك </a>#<a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">whatsappstatus </a>#<a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">positive </a>#<a title="ستوريات_انستا" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A%D8%A7%D8%AA_%D8%A7%D9%86%D8%B3%D8%AA%D8%A7?refer=embed">ستوريات_انستا </a>#<a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">ستوري_واتس</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7113244926946577157?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7112880653703646470" data-video-id="7112880653703646470" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> خلي بالك <a title="موضوع_مهم_جدا" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%88%D8%B6%D9%88%D8%B9_%D9%85%D9%87%D9%85_%D8%AC%D8%AF%D8%A7?refer=embed">#موضوع_مهم_جدا</a> <a title="المطلقه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%85%D8%B7%D9%84%D9%82%D9%87?refer=embed">#المطلقه</a> <a title="statusvideo" target="_blank" href="https://www.tiktok.com/tag/statusvideo?refer=embed">#statusvideo</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="الامراه_العظيمه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%A7%D9%85%D8%B1%D8%A7%D9%87_%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%D9%87?refer=embed">#الامراه_العظيمه</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7112880655473707782?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7111392976181513477" data-video-id="7111392976181513477" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> اتقدملها مره و رفضته!!! <a title="شهيدة_المنصورة" target="_blank" href="https://www.tiktok.com/tag/%D8%B4%D9%87%D9%8A%D8%AF%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%B5%D9%88%D8%B1%D8%A9?refer=embed">#شهيدة_المنصورة</a> <a title="عروسه_في_الجنه" target="_blank" href="https://www.tiktok.com/tag/%D8%B9%D8%B1%D9%88%D8%B3%D9%87_%D9%81%D9%8A_%D8%A7%D9%84%D8%AC%D9%86%D9%87?refer=embed">#عروسه_في_الجنه</a> <a title="نيره_اشرف" target="_blank" href="https://www.tiktok.com/tag/%D9%86%D9%8A%D8%B1%D9%87_%D8%A7%D8%B4%D8%B1%D9%81?refer=embed">#نيره_اشرف</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7111393037112838918?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7109208008755891461" data-video-id="7109208008755891461" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> كتاب لازم تقراه        <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="statuswhatsapp" target="_blank" href="https://www.tiktok.com/tag/statuswhatsapp?refer=embed">#statuswhatsapp</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="actingchallenge" target="_blank" href="https://www.tiktok.com/tag/actingchallenge?refer=embed">#actingchallenge</a> <a title="statusvideo" target="_blank" href="https://www.tiktok.com/tag/statusvideo?refer=embed">#statusvideo</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7109208018773117701?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7108791932540914950" data-video-id="7108791932540914950" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> شغل فلاحين 😏              <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="statuswhatsapp" target="_blank" href="https://www.tiktok.com/tag/statuswhatsapp?refer=embed">#statuswhatsapp</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="ناس_طيبين_اوي_ياخال" target="_blank" href="https://www.tiktok.com/tag/%D9%86%D8%A7%D8%B3_%D8%B7%D9%8A%D8%A8%D9%8A%D9%86_%D8%A7%D9%88%D9%8A_%D9%8A%D8%A7%D8%AE%D8%A7%D9%84?refer=embed">#ناس_طيبين_اوي_ياخال</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="فلاحين" target="_blank" href="https://www.tiktok.com/tag/%D9%81%D9%84%D8%A7%D8%AD%D9%8A%D9%86?refer=embed">#فلاحين</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7108791969094077190?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7108402372304538885" data-video-id="7108402372304538885" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> ناس طيبين اوي 😅 بس دي المره الاولى ها ! 😉 <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="ناس_طيبين_اوي_ياخال" target="_blank" href="https://www.tiktok.com/tag/%D9%86%D8%A7%D8%B3_%D8%B7%D9%8A%D8%A8%D9%8A%D9%86_%D8%A7%D9%88%D9%8A_%D9%8A%D8%A7%D8%AE%D8%A7%D9%84?refer=embed">#ناس_طيبين_اوي_ياخال</a> <a title="status" target="_blank" href="https://www.tiktok.com/tag/status?refer=embed">#status</a> <a title="statuswhatsapp" target="_blank" href="https://www.tiktok.com/tag/statuswhatsapp?refer=embed">#statuswhatsapp</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7108402370870790918?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7107637552500280582" data-video-id="7107637552500280582" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مشوار  🎭                          <a title="التمثيل" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AA%D9%85%D8%AB%D9%8A%D9%84?refer=embed">#التمثيل</a> <a title="acting" target="_blank" href="https://www.tiktok.com/tag/acting?refer=embed">#acting</a> <a title="actingchallenge" target="_blank" href="https://www.tiktok.com/tag/actingchallenge?refer=embed">#actingchallenge</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7107637545403501317?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7107305093837409541" data-video-id="7107305093837409541" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> متقلقش هتنجح بس لازم تعرف السرحاولت كام مره و فشلت و حاولت تاني ؟!!                           #<a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">motivationalspeaker </a>#<a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">explore </a>#<a title="اكسبلور" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%83%D8%B3%D8%A8%D9%84%D9%88%D8%B1?refer=embed">اكسبلور </a>#<a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">حفز_نفسك </a>#<a title="motivationalvideo" target="_blank" href="https://www.tiktok.com/tag/motivationalvideo?refer=embed">motivationalvideo </a>#<a title="motivation" target="_blank" href="https://www.tiktok.com/tag/motivation?refer=embed">motivation </a>#<a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">محمد_عبدالمجيد </a>#<a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">الساعه_بتاعت_قبل_النوم </a>#<a title="تقليد_تامر_حسني" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D9%82%D9%84%D9%8A%D8%AF_%D8%AA%D8%A7%D9%85%D8%B1_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">تقليد_تامر_حسني </a>#<a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">whatsappstatus </a>#<a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">storytime </a>#<a title="story" target="_blank" href="https://www.tiktok.com/tag/story?refer=embed">story </a>#<a title="statusvideo" target="_blank" href="https://www.tiktok.com/tag/statusvideo?refer=embed">statusvideo</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7107305119452302086?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7105443145210547462" data-video-id="7105443145210547462" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> شوية صبر و هتلاقي نتيجه مبهره !                                                                      <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="تحفيز_الذات" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D8%AD%D9%81%D9%8A%D8%B2_%D8%A7%D9%84%D8%B0%D8%A7%D8%AA?refer=embed">#تحفيز_الذات</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="positive" target="_blank" href="https://www.tiktok.com/tag/positive?refer=embed">#positive</a> <a title="postivitiy" target="_blank" href="https://www.tiktok.com/tag/postivitiy?refer=embed">#postivitiy</a> <a title="motivation" target="_blank" href="https://www.tiktok.com/tag/motivation?refer=embed">#motivation</a> <a title="motivationalvideo" target="_blank" href="https://www.tiktok.com/tag/motivationalvideo?refer=embed">#motivationalvideo</a> <a title="motivationalspeaker" target="_blank" href="https://www.tiktok.com/tag/motivationalspeaker?refer=embed">#motivationalspeaker</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="اكسبلور" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%83%D8%B3%D8%A8%D9%84%D9%88%D8%B1?refer=embed">#اكسبلور</a> <a title="حفز_نفسك" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D9%81%D8%B2_%D9%86%D9%81%D8%B3%D9%83?refer=embed">#حفز_نفسك</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7105443124226444037?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7105071225130585349" data-video-id="7105071225130585349" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> شيلت صوت تامر حسني و سجلت صوتي 🤣😅ايه رأيك يا تامر 😅<a title="تقليد_اصوات" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D9%82%D9%84%D9%8A%D8%AF_%D8%A7%D8%B5%D9%88%D8%A7%D8%AA?refer=embed">#تقليد_اصوات</a> <a title="تقليد_تامر_حسني" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D9%82%D9%84%D9%8A%D8%AF_%D8%AA%D8%A7%D9%85%D8%B1_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#تقليد_تامر_حسني</a> @tamerhosny  <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="صوتي" target="_blank" href="https://www.tiktok.com/tag/%D8%B5%D9%88%D8%AA%D9%8A?refer=embed">#صوتي</a> <a title="تامر_حسني" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D8%A7%D9%85%D8%B1_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#تامر_حسني</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7105071217313155845?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7104338980971351302" data-video-id="7104338980971351302" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> شخصيه خطيره جدا لازم تبعد عنها ☠️                                        <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="statusvideo" target="_blank" href="https://www.tiktok.com/tag/statusvideo?refer=embed">#statusvideo</a> <a title="storywhatsapp" target="_blank" href="https://www.tiktok.com/tag/storywhatsapp?refer=embed">#storywhatsapp</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="motivational_speaker" target="_blank" href="https://www.tiktok.com/tag/motivational_speaker?refer=embed">#motivational_speaker</a> <a title="motivitonal_video" target="_blank" href="https://www.tiktok.com/tag/motivitonal_video?refer=embed">#motivitonal_video</a> <a title="cairotime" target="_blank" href="https://www.tiktok.com/tag/cairotime?refer=embed">#cairotime</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a title="اكسبلور" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%83%D8%B3%D8%A8%D9%84%D9%88%D8%B1?refer=embed">#اكسبلور</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7104338980082977541?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7103230374808997126" data-video-id="7103230374808997126" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> تحت شعار &#34; و من النهارده هدلعني هخرج معايا و امتعني 🧖💆🧘 &#34;                                          <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a>  <a title="foryoupage" target="_blank" href="https://www.tiktok.com/tag/foryoupage?refer=embed">#foryoupage</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="motivation" target="_blank" href="https://www.tiktok.com/tag/motivation?refer=embed">#motivation</a> <a title="motivational" target="_blank" href="https://www.tiktok.com/tag/motivational?refer=embed">#motivational</a>  <a title="motivitonal_video" target="_blank" href="https://www.tiktok.com/tag/motivitonal_video?refer=embed">#motivitonal_video</a> <a title="motivational_speaker" target="_blank" href="https://www.tiktok.com/tag/motivational_speaker?refer=embed">#motivational_speaker</a>  <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="storywhatsapp" target="_blank" href="https://www.tiktok.com/tag/storywhatsapp?refer=embed">#storywhatsapp</a> <a title="statusvideo" target="_blank" href="https://www.tiktok.com/tag/statusvideo?refer=embed">#statusvideo</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7103230367393696518?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7102829332053200133" data-video-id="7102829332053200133" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> يمكن تكون انت الشخص اللي يحصل معاه كده!                            <a title="منحنى_النجاح" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D9%86%D8%AD%D9%86%D9%89_%D8%A7%D9%84%D9%86%D8%AC%D8%A7%D8%AD?refer=embed">#منحنى_النجاح</a> <a title="hockey" target="_blank" href="https://www.tiktok.com/tag/hockey?refer=embed">#hockey</a> <a title="curve" target="_blank" href="https://www.tiktok.com/tag/curve?refer=embed">#curve</a> <a title="motivation" target="_blank" href="https://www.tiktok.com/tag/motivation?refer=embed">#motivation</a> <a title="motivationspeaker83" target="_blank" href="https://www.tiktok.com/tag/motivationspeaker83?refer=embed">#motivationspeaker83</a> <a title="motivation_speaker" target="_blank" href="https://www.tiktok.com/tag/motivation_speaker?refer=embed">#motivation_speaker</a> <a title="statuswhatsapp" target="_blank" href="https://www.tiktok.com/tag/statuswhatsapp?refer=embed">#statuswhatsapp</a> <a title="story" target="_blank" href="https://www.tiktok.com/tag/story?refer=embed">#story</a> <a title="storytime" target="_blank" href="https://www.tiktok.com/tag/storytime?refer=embed">#storytime</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a title="اكسبلور" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%83%D8%B3%D8%A8%D9%84%D9%88%D8%B1?refer=embed">#اكسبلور</a> <a title="محمد_عبدالمجيد" target="_blank" href="https://www.tiktok.com/tag/%D9%85%D8%AD%D9%85%D8%AF_%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D9%85%D8%AC%D9%8A%D8%AF?refer=embed">#محمد_عبدالمجيد</a> <a title="الساعه" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87?refer=embed">#الساعه</a> <a title="الساعه_بتاعت_قبل_النوم" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%87_%D8%A8%D8%AA%D8%A7%D8%B9%D8%AA_%D9%82%D8%A8%D9%84_%D8%A7%D9%84%D9%86%D9%88%D9%85?refer=embed">#الساعه_بتاعت_قبل_النوم</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7102829335828646662?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7101745318835850501" data-video-id="7101745318835850501" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> لا لا مش لاعب 😏 <a title="فيديو_تحفيزي" target="_blank" href="https://www.tiktok.com/tag/%D9%81%D9%8A%D8%AF%D9%8A%D9%88_%D8%AA%D8%AD%D9%81%D9%8A%D8%B2%D9%8A?refer=embed">#فيديو_تحفيزي</a> <a title="motivationalvideo" target="_blank" href="https://www.tiktok.com/tag/motivationalvideo?refer=embed">#motivationalvideo</a> <a title="ستوري" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A?refer=embed">#ستوري</a> <a title="statuswhatsapp" target="_blank" href="https://www.tiktok.com/tag/statuswhatsapp?refer=embed">#statuswhatsapp</a> <a title="الساعه12" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%8712?refer=embed">#الساعه12</a> <a title="حالة_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D8%A7%D9%84%D8%A9_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#حالة_واتس</a> <a title="explore" target="_blank" href="https://www.tiktok.com/tag/explore?refer=embed">#explore</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7101745321557920517?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7100996878757547269" data-video-id="7100996878757547269" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> الفيديو ده ليك إنت فعلا ايوه انت! <a title="motivation" target="_blank" href="https://www.tiktok.com/tag/motivation?refer=embed">#motivation</a> <a title="motivationalvideo" target="_blank" href="https://www.tiktok.com/tag/motivationalvideo?refer=embed">#motivationalvideo</a> <a title="فيديو_تحفيزي" target="_blank" href="https://www.tiktok.com/tag/%D9%81%D9%8A%D8%AF%D9%8A%D9%88_%D8%AA%D8%AD%D9%81%D9%8A%D8%B2%D9%8A?refer=embed">#فيديو_تحفيزي</a> <a title="statuswhatsapp" target="_blank" href="https://www.tiktok.com/tag/statuswhatsapp?refer=embed">#statuswhatsapp</a> <a title="ستوري" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A?refer=embed">#ستوري</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7100996869957978885?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7099866137776672006" data-video-id="7099866137776672006" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <a title="what_a_wonderful_world" target="_blank" href="https://www.tiktok.com/tag/what_a_wonderful_world?refer=embed">#what_a_wonderful_world</a> <a target="_blank" title="♬ What A Wonderful World - Louis Armstrong" href="https://www.tiktok.com/music/What-A-Wonderful-World-6741805950329423873?refer=embed">♬ What A Wonderful World - Louis Armstrong</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7099829204853820677" data-video-id="7099829204853820677" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <a title="حتى_بص_الحركه_دى" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D8%AA%D9%89_%D8%A8%D8%B5_%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D9%87_%D8%AF%D9%89?refer=embed">#حتى_بص_الحركه_دى</a> <a target="_blank" title="♬ الحركه دي - احمد حلمي - HM Music Production" href="https://www.tiktok.com/music/الحركه-دي-احمد-حلمي-7099183456654985217?refer=embed">♬ الحركه دي - احمد حلمي - HM Music Production</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7098087140168420614" data-video-id="7098087140168420614" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> ركز في التفاصيل <a title="الساعه12" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D9%8712?refer=embed">#الساعه12</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7098087155683068678?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7097322447778712837" data-video-id="7097322447778712837" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> في كام باب اتقفل في وشك؟!!! <a title="motivation" target="_blank" href="https://www.tiktok.com/tag/motivation?refer=embed">#motivation</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7097322438598052614?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7097306285627985157" data-video-id="7097306285627985157" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> كلمة اخيره 🎬 <a title="السقا" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%B3%D9%82%D8%A7?refer=embed">#السقا</a> <a target="_blank" title="♬ الصوت الأصلي - 🔱 الكساحه 🔱" href="https://www.tiktok.com/music/الصوت-الأصلي-7089430600947436293?refer=embed">♬ الصوت الأصلي - 🔱 الكساحه 🔱</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7096964884545441030" data-video-id="7096964884545441030" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> حتى بص الحركة دي 😉<a title="أحمد_حلمي" target="_blank" href="https://www.tiktok.com/tag/%D8%A3%D8%AD%D9%85%D8%AF_%D8%AD%D9%84%D9%85%D9%8A?refer=embed">#أحمد_حلمي</a> <a title="بص_الحركه_دي" target="_blank" href="https://www.tiktok.com/tag/%D8%A8%D8%B5_%D8%A7%D9%84%D8%AD%D8%B1%D9%83%D9%87_%D8%AF%D9%8A?refer=embed">#بص_الحركه_دي</a> @ahmedhelmy <a target="_blank" title="♬ original sound - Ahmed Mekky" href="https://www.tiktok.com/music/original-sound-7095029006466108165?refer=embed">♬ original sound - Ahmed Mekky</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7096916489080425733" data-video-id="7096916489080425733" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> ناسيني لييييه 💔 <a title="فيلم_بندق" target="_blank" href="https://www.tiktok.com/tag/%D9%81%D9%8A%D9%84%D9%85_%D8%A8%D9%86%D8%AF%D9%82?refer=embed">#فيلم_بندق</a> <a title="ناسيني_ليه" target="_blank" href="https://www.tiktok.com/tag/%D9%86%D8%A7%D8%B3%D9%8A%D9%86%D9%8A_%D9%84%D9%8A%D9%87?refer=embed">#ناسيني_ليه</a> <a title="تامر_حسني" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D8%A7%D9%85%D8%B1_%D8%AD%D8%B3%D9%86%D9%8A?refer=embed">#تامر_حسني</a> <a title="ستوري_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#ستوري_واتس</a> <a title="حالة_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D8%A7%D9%84%D8%A9_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#حالة_واتس</a> <a title="arm_arts" target="_blank" href="https://www.tiktok.com/tag/arm_arts?refer=embed">#arm_arts</a> <a title="bondok" target="_blank" href="https://www.tiktok.com/tag/bondok?refer=embed">#bondok</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7096916481334184710?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7096564828302544134" data-video-id="7096564828302544134" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> حاجتين مهمين جدا لازم تعملهم <a title="motivation" target="_blank" href="https://www.tiktok.com/tag/motivation?refer=embed">#motivation</a> <a title="motivationalvideo" target="_blank" href="https://www.tiktok.com/tag/motivationalvideo?refer=embed">#motivationalvideo</a> <a title="tiktok" target="_blank" href="https://www.tiktok.com/tag/tiktok?refer=embed">#tiktok</a> <a title="whatsappstatus" target="_blank" href="https://www.tiktok.com/tag/whatsappstatus?refer=embed">#whatsappstatus</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7096564806785829638?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7095826209707265286" data-video-id="7095826209707265286" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مش عايز دي ڤي دي ؟! 🤣🙂💔 <a title="هندسة_صوتيه" target="_blank" href="https://www.tiktok.com/tag/%D9%87%D9%86%D8%AF%D8%B3%D8%A9_%D8%B5%D9%88%D8%AA%D9%8A%D9%87?refer=embed">#هندسة_صوتيه</a> <a title="تيك_توك" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D9%8A%D9%83_%D8%AA%D9%88%D9%83?refer=embed">#تيك_توك</a> <a title="ضحك_للصبح" target="_blank" href="https://www.tiktok.com/tag/%D8%B6%D8%AD%D9%83_%D9%84%D9%84%D8%B5%D8%A8%D8%AD?refer=embed">#ضحك_للصبح</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7095826202708249349?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7094740293953572101" data-video-id="7094740293953572101" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> تتهمني بالفشل !!! <a title="خليك_انت" target="_blank" href="https://www.tiktok.com/tag/%D8%AE%D9%84%D9%8A%D9%83_%D8%A7%D9%86%D8%AA?refer=embed">#خليك_انت</a> <a title="التجربة" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D8%A8%D8%A9?refer=embed">#التجربة</a> <a title="ستوري_واتساب" target="_blank" href="https://www.tiktok.com/tag/%D8%B3%D8%AA%D9%88%D8%B1%D9%8A_%D9%88%D8%A7%D8%AA%D8%B3%D8%A7%D8%A8?refer=embed">#ستوري_واتساب</a> <a title="حالة_واتس" target="_blank" href="https://www.tiktok.com/tag/%D8%AD%D8%A7%D9%84%D8%A9_%D9%88%D8%A7%D8%AA%D8%B3?refer=embed">#حالة_واتس</a> <a title="تيك_توك" target="_blank" href="https://www.tiktok.com/tag/%D8%AA%D9%8A%D9%83_%D8%AA%D9%88%D9%83?refer=embed">#تيك_توك</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7094740327591856901?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7094378642838457605" data-video-id="7094378642838457605" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> لا تخاف 🙌🏼💥 <a title="كواليس_تصوير_فيلم_اضطراب" target="_blank" href="https://www.tiktok.com/tag/%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3_%D8%AA%D8%B5%D9%88%D9%8A%D8%B1_%D9%81%D9%8A%D9%84%D9%85_%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8?refer=embed">#كواليس_تصوير_فيلم_اضطراب</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7094378616590519045?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7094316423937264901" data-video-id="7094316423937264901" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> مش السقا بس اللي بيشتغل من غير دوبلير 🤣احنا مش أقل من السقا 🧘 <a title="فيلم_اضطراب" target="_blank" href="https://www.tiktok.com/tag/%D9%81%D9%8A%D9%84%D9%85_%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8?refer=embed">#فيلم_اضطراب</a> <a title="كواليس_فيلم_اضطراب" target="_blank" href="https://www.tiktok.com/tag/%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3_%D9%81%D9%8A%D9%84%D9%85_%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8?refer=embed">#كواليس_فيلم_اضطراب</a> <a target="_blank" title="♬ Matkhafesh Yamma - Ali Loka" href="https://www.tiktok.com/music/Matkhafesh-Yamma-7027029944983111681?refer=embed">♬ Matkhafesh Yamma - Ali Loka</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7094281263917305093" data-video-id="7094281263917305093" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> <p>ضحية نفسك</p> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7094281249606454021?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/7092911716924755205" data-video-id="7092911716924755205" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> وقت نجاحك مش في ايدك ابدا مينفعش تزعل <a title="انت_تستطيع" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%86%D8%AA_%D8%AA%D8%B3%D8%AA%D8%B7%D9%8A%D8%B9?refer=embed">#انت_تستطيع</a> <a title="الوقت" target="_blank" href="https://www.tiktok.com/tag/%D8%A7%D9%84%D9%88%D9%82%D8%AA?refer=embed">#الوقت</a> <a target="_blank" title="♬ original sound - Muhammad Abdulmajid" href="https://www.tiktok.com/music/original-sound-7092911697245358854?refer=embed">♬ original sound - Muhammad Abdulmajid</a> </section> </blockquote> 
-              <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@muhamedabdulmajid/video/6810767444324535557" data-video-id="6810767444324535557" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@muhamedabdulmajid" href="https://www.tiktok.com/@muhamedabdulmajid?refer=embed">@muhamedabdulmajid</a> راجل لراجل 😂😂 <a title="خليك_في_البيت" target="_blank" href="https://www.tiktok.com/tag/%D8%AE%D9%84%D9%8A%D9%83_%D9%81%D9%8A_%D8%A7%D9%84%D8%A8%D9%8A%D8%AA?refer=embed">#خليك_في_البيت</a> <a target="_blank" title="♬ الصوت الأصلي - 💥العقرب💥" href="https://www.tiktok.com/music/الصوت-الأصلي-6804581163722640134?refer=embed">♬ الصوت الأصلي - 💥العقرب💥</a> </section> </blockquote> 
+            <div class="row">
+              <div class="dropdown col-sm-4">
+                <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
+                  <i class="bi bi-youtube"></i> Youtube
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
+                  <li>
+                    <h6 class="dropdown-header" style="color: red;"> <i class="bi bi-youtube"></i> Youtube</h6>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li onclick="go('https://www.youtube.com/embed/NpKF2c2czOg?controls=0')" class="dropdown-item">LINKCU
+                    platform (official)</li>
+                  <li onclick="go('https://www.youtube.com/embed/y_zNcqpCwgQ?controls=0')" class="dropdown-item">Bank Al
+                    Ahly (unofficial)</li>
+                  <li onclick="go('https://www.youtube.com/embed/u0mFUjRnxRk?controls=0')" class="dropdown-item">EBI ADS
+                    (unofficial)</li>
+                  <li onclick="go('https://www.youtube.com/embed/CVgKQmFHtXI?controls=0')" class="dropdown-item">Pepsi
+                  </li>
+                  <li onclick="go('https://www.youtube.com/embed/j11UNGTOFW4?controls=0')" class="dropdown-item">سباقك
+                    الحقيقي مع نفسك</li>
+                  <li onclick="go('https://www.youtube.com/embed/1roagKqyKPw?controls=0')" class="dropdown-item">BOLT
+                  </li>
+                  <li onclick="go('https://www.youtube.com/embed/E-qlNhQsCrs?controls=0')" class="dropdown-item">كنور
+                  </li>
+                  <li onclick="go('https://www.youtube.com/embed/g1-TuYJlagg?controls=0')" class="dropdown-item">Pepsi ,
+                    Chipsy</li>
+                  <li onclick="go('https://www.youtube.com/embed/oVC6q06DAdI?controls=0')" class="dropdown-item">A Bug's
+                    Life</li>
+                  <li onclick="go('https://www.youtube.com/embed/NUHNB3pU6yQ?controls=0')" class="dropdown-item">Sodic
+                    (unofficial)</li>
+                  <li onclick="go('https://www.youtube.com/embed/TcvLKBYFhxo?controls=0')" class="dropdown-item">the
+                    joker</li>
+                  <li onclick="go('https://www.youtube.com/embed/cI91A8bukKU?controls=0')" class="dropdown-item">
+                    Princess and the frog</li>
+                  <li onclick="go('https://www.youtube.com/embed/YYrnA_9PFHE?controls=0')" class="dropdown-item">الفار
+                    الطباخ</li>
+                </ul>
+              </div>
+              <div class="dropdown col-sm-4">
+                <button class="btn btn-outline-primary dropdown-toggle btn-large" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
+                  <i class="bx bxl-facebook"></i> Facebook
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
+                  <li>
+                    <h6 class="dropdown-header" style="color: blue;"> <i class="bx bxl-facebook"></i> Facebook</h6>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=280&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1577587015722733%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">الامير الضفدع - The Princess and the Frog</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1576707199144048%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Ratatouille</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1591261007688667%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Aladdin</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1582082501939851%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Beauty and the beast </li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1580392515442183%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Spider man</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1594954260652675%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Mulan</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1602842139863887%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Ratatouille</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1611831588964942%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">رواية تانجل</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1609884295826338%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Simba</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1623082921173142%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">خليك انت - stay you</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1621207241360710%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Zootopia</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1618717324943035%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item"> حياة حشره</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1670158556465578%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Finding Nemo</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1687829348031832%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Moana</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1766355496845883%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Polt</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1886933504788081%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">مشاهد مجمعه</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F1971067343041363%2F&show_text=false&width=560&t=0')"
+                    class="dropdown-item">Over The Moon</li>
+                </ul>
+              </div>
+              <div class="dropdown col-sm-4">
+                <button class="btn btn-outline-warning dropdown-toggle" type="button" id="dropdownMenuButton"
+                  data-bs-toggle="dropdown" aria-expanded="false" style="width:100% ;">
+                  Reals
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="width:100% ;">
+                  <li>
+                    <h6 class="dropdown-header" style="color: yellow;"><i class="bi bi-camera-reels"></i> Reals</h6>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F340389288244306%2F&show_text=false&width=267&t=0')"
+                    class="dropdown-item"> إنعدام الانسانيه </li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F553521989773420%2F&show_text=true&width=267&t=0')"
+                    class="dropdown-item">المطلقه</li>
+                  <li
+                    onclick="go('https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fmuhamedabdulmajid97%2Fvideos%2F602252431135004%2F&show_text=false&width=267&t=0')"
+                    class="dropdown-item"> اطمن</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <iframe id="MENUview" src="https://www.youtube.com/embed/NpKF2c2czOg?controls=0" class="card-img-top"
+                  scrolling="no" frameborder="0" allowfullscreen="true"
+                  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                  allowFullScreen="true"></iframe>
+              </div>
             </div>
           </div>
-
-      </section>
-
-
-      
+        </section>
 
 
+
+
+
+      </div>
+
+    </div>
+    <!-- </section> -->
+
+
+
+
+    <!--"""""""""""""""""""""""""""""""""contact"""""""""""""""""""""""""""""""""""""""""""-->
+
+    <section id="contact" class="contact">
+      <div class="section-title">
+        <h2>Contact</h2>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="info">
+          <div class="email">
+            <a href="mailto:mohamedabdulmajidgm@gmail.com">
+              <i class="bi bi-envelope"></i>
+            </a>
+            <h4>Email</h4>
+            <p>mohamedabdulmajidgm@gmail.com</p>
+          </div>
+          <div class="phone">
+            <a href="tel:+21019006828">
+              <i class="bi bi-phone"></i>
+            </a>
+            <h4>Call</h4>
+            <p>01019006828</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+  </main>
+  <footer id="footer" class="footer">
+    <div class="container">
+      <h3>Muhamed Abdulmajid</h3>
+      <p>you can follow me in this sites</p>
+      <div class="social-links">
+        <a href="https://twitter.com/muhamed_abm" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/mohamed-abdulmajid-94117b21a/" class="google-plus"><i
+            class="bi bi-linkedin"></i></i></a>
+        <a href="https://www.facebook.com/muhamedabdulmajid97" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/muhamedabdulmajid/" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://api.whatsapp.com/send/?phone=201019006828&text&app_absent=0" class="google-plus"><i
+            class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.youtube.com/c/MuhamedAbdulmajid" class="google-plus"><i class="bi bi-youtube"></i></i></a>
+      </div>
+    </div>
+  </footer>
+  <div class="reals" id="reals">
+    <div class="section-title">
+      <h2>Reals</h2>
+    </div>
+    <!--tiktok container-->
+    <div class="container tiktok-embed-container">
+
+    </div>
+    <button class="load-more">load more</button>
   </div>
 
-  </div>
-<!-- </section> -->
 
 
-
-
-<!--"""""""""""""""""""""""""""""""""contact"""""""""""""""""""""""""""""""""""""""""""-->
-
-      <section id="contact" class="contact">
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-        <div class="container" data-aos="fade-up">
-              <div class="info">
-                <div class="email">
-                    <a href="mailto:mohamedabdulmajidgm@gmail.com">
-                        <i class="bi bi-envelope"></i>
-                    </a>
-                  <h4>Email</h4>
-                  <p>mohamedabdulmajidgm@gmail.com</p>
-                </div>
-                <div class="phone">
-                    <a href="tel:+21019006828">
-                      <i class="bi bi-phone"></i>
-                  </a>
-                  <h4>Call</h4>
-                  <p>01019006828</p>
-                </div>
-
-            </div>
-          </div>
-
-      </section>
-
-
-
-
-   
-
-      
-      
-
-    </main>
-      <footer id="footer" class="footer">
-        <div class="container">
-          <h3>Muhamed Abdulmajid</h3>
-          <p>you can follow me in this sites</p>
-          <div class="social-links">
-            <a href="https://twitter.com/muhamed_abm" class="twitter"><i class="bx bxl-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/mohamed-abdulmajid-94117b21a/" class="google-plus"><i class="bi bi-linkedin"></i></i></a>
-            <a href="https://www.facebook.com/muhamedabdulmajid97" class="facebook"><i class="bx bxl-facebook"></i></a>
-            <a href="https://www.instagram.com/muhamedabdulmajid/" class="instagram"><i class="bx bxl-instagram"></i></a>
-            <a href="https://api.whatsapp.com/send/?phone=201019006828&text&app_absent=0" class="google-plus"><i class="bx bxl-whatsapp"></i></a>
-            <a href="https://www.youtube.com/c/MuhamedAbdulmajid" class="google-plus"><i class="bi bi-youtube"></i></i></a>
-          </div>
-        </div>
-      </footer>
-        
-
-
-      <div id="preloader"></div>
-      <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
@@ -708,28 +760,9 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-  <script>
-      var swiper = new Swiper('.swiper-container', {
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflowEffect: {
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-        },
-        loop:true,
-      });
-    </script>
 
-  
   <script src="assets/js/main.js"></script>
   <script async src="https://www.tiktok.com/embed.js"></script>
-    </body>
+</body>
+
 </html>
