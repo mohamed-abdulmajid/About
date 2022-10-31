@@ -650,17 +650,32 @@ section {
   --------------------------------------------------------------*/
 #footer {
   width: 100%;
-  height: 40vh;
-  background: url("../img/footer.jpg") bottom right no-repeat;
+  height: 80vh;
+  background: url("../img/footer.jpg") no-repeat;
   background-size: cover;
   position: relative;
-  /* background: #45505b; */
   color: #45505b;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+@media (max-width: 767px) {
+  #footer {
+    background-position: 80% 150px;
+  }
 }
 #footer h3 {
+  color: #fff;
   font-size: 36px;
   font-weight: 700;
   position: relative;
@@ -669,6 +684,8 @@ section {
   margin: 0 0 15px 0;
 }
 #footer p {
+  position: relative;
+  color: #eee;
   font-size: 15;
   font-style: italic;
   padding: 0;
@@ -678,6 +695,7 @@ section {
   margin: 0 0 40px 0;
 }
 #footer .social-links a {
+  position: relative;
   font-size: 18px;
   display: inline-block;
   background: #6c6c6e;
@@ -703,6 +721,53 @@ section {
   font-size: 13px;
 }
 
+/*--------------------------------------------------------------
+  # custom-shape-divider-
+--------------------------------------------------------------*/
+
+.custom-shape-divider-top-1667189365 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1667189365 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 92px;
+}
+
+.custom-shape-divider-top-1667189365 .shape-fill {
+  fill: #ffffff;
+}
+.custom-shape-divider-bottom-1667189838 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1667189838 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 92px;
+}
+
+.custom-shape-divider-bottom-1667189838 .shape-fill {
+  fill: #ffffff;
+}
+/*--------------------------------------------------------------
+  # page-section 
+--------------------------------------------------------------*/
+
 .page-section {
   padding: 6rem 0;
 }
@@ -723,6 +788,9 @@ section {
   margin-bottom: 4rem;
 }
 
+/*--------------------------------------------------------------
+  # timeline
+  --------------------------------------------------------------*/
 .timeline {
   position: relative;
   padding: 0;
@@ -904,7 +972,9 @@ section {
   max-width: 100%;
   height: auto;
 }
-
+/*--------------------------------------------------------------
+  # portfolio
+  --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1041,7 +1111,9 @@ section {
   right: 15px;
 }
 
-/*page section*/
+/*--------------------------------------------------------------
+  # page-section
+  --------------------------------------------------------------*/
 
 .page-section .card-body .card-title {
   color: #869fb6;
@@ -1114,63 +1186,5 @@ section {
   .card-img-top {
     height: 250px;
     width: 100%;
-  }
-}
-
-.table {
-  border: 0;
-  background-color: #45505b;
-  border-radius: 15px;
-  color: #fff;
-  font-family: "cursive";
-  margin: 5px;
-  justify-content: center;
-  justify-items: center;
-  width: 100%;
-  box-shadow: -8px -8px 28px -6px rgba(0, 0, 0, 0.48);
-  -webkit-box-shadow: -8px -8px 28px -6px rgba(0, 0, 0, 0.48);
-  -moz-box-shadow: -8px -8px 28px -6px rgba(0, 0, 0, 0.48);
-  scroll-behavior: auto;
-}
-.table tr {
-  font-size: x-large;
-  margin: 15px;
-  padding-top: 15px;
-  text-align: center;
-  font: caption;
-}
-.table tr:hover {
-  background-color: #272829;
-  border-radius: 15px;
-}
-.table tr th {
-  color: #c6c6c6;
-}
-
-#table-wrapper {
-  position: relative;
-  border-radius: 5px;
-  scroll-behavior: 0;
-  scroll-snap-type: proximity;
-}
-#table-scroll {
-  height: 70vh;
-  overflow: auto;
-  margin-top: 20px;
-  border-radius: 15px;
-  scroll-behavior: smooth;
-}
-@media (max-width: 992px) {
-  .table {
-    margin: auto;
-  }
-  .table tr {
-    font-size: medium;
-  }
-  #table-scroll {
-    height: 40vh;
-  }
-  .dropdown {
-    padding-top: 15px;
   }
 }
