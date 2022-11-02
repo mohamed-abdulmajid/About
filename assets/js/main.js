@@ -241,6 +241,9 @@ function go(loc) {
   document.getElementById("MENUview").src = loc;
 }
 
+/*--------------------------------------------------------------
+  # Build Reals
+  --------------------------------------------------------------*/
 let data_video_id = [
   "7138115738073566470",
   "7160385710220971270",
@@ -331,7 +334,16 @@ let data_video_id = [
   "6810767444324535557",
 ];
 
+/*--------------------------------------------------------------
+  # take an inputs 
+  --------------------------------------------------------------*/
+
 let reals = document.querySelector(".tiktok-embed-container");
+let load_more = document.querySelector(".load-more");
+let counter = 0;
+
+/*build div maker */
+
 let div_Maker = (value) => {
   let data = document.createElement("blockquote");
   data.className = "tiktok-embed";
@@ -345,21 +357,46 @@ let div_Maker = (value) => {
   data.appendChild(section);
   reals.appendChild(data);
 };
-let counter = 0;
-for (let i = 0; i < 4; i++) {
-  console.log(div_Maker(counter));
-  counter++;
-}
-let script = document.createElement("script");
-script.src = "https://www.tiktok.com/embed.js";
-reals.appendChild(script);
+/* display 5 elements in relode */
 
-document.querySelector(".load-more").addEventListener("click", (e) => {
-  for (let i = 0; i < 4; i++) {
-    console.log(div_Maker(counter));
-    counter++;
+if (data_video_id.length) {
+  if (data_video_id.length > 4) {
+    for (let i = 0; i < 4; i++) {
+      console.log(div_Maker(counter));
+      counter++;
+    }
+    let script = document.createElement("script");
+    script.src = "https://www.tiktok.com/embed.js";
+    reals.appendChild(script);
+  } else {
+    for (let i = 0; i < data_video_id.length; i++) {
+      console.log(div_Maker(counter));
+      counter++;
+    }
+    let script = document.createElement("script");
+    script.src = "https://www.tiktok.com/embed.js";
+    reals.appendChild(script);
+    load_more.style.display = "none";
   }
-  let script = document.createElement("script");
-  script.src = "https://www.tiktok.com/embed.js";
-  reals.appendChild(script);
+}
+
+load_more.addEventListener("click", (e) => {
+  if (data_video_id.length - counter > 4) {
+    for (let i = 0; i < 4; i++) {
+      console.log(div_Maker(counter));
+      counter++;
+    }
+    let script = document.createElement("script");
+    script.src = "https://www.tiktok.com/embed.js";
+    reals.appendChild(script);
+  } else {
+    for (let i = 0; i < data_video_id.length - counter; i++) {
+      console.log(div_Maker(counter));
+      counter++;
+    }
+    let script = document.createElement("script");
+    script.src = "https://www.tiktok.com/embed.js";
+    reals.appendChild(script);
+    load_more.style.display = "none";
+  }
 });
