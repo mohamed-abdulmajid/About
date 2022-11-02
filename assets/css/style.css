@@ -532,20 +532,49 @@ section {
   gap: 40px;
 }
 .gallary .box {
+  position: relative;
+  width: 100%;
+  height: auto;
   padding: 8px;
   background-color: rgba(221, 221, 221, 0.401);
   box-shadow: 0 2px 15px rgba(251, 251, 251) inset;
   border-radius: 0.5rem;
   max-height: fit-content;
   overflow: hidden;
+  object-fit: cover;
 }
-.gallary .img img {
-  width: 100%;
-  border-radius: 0.5rem;
-  transition: all 0.3s ease-in-out;
+.gallary .box .download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1000;
+  color: #fff;
+  transform: translate(-50%, -50%);
+
+  cursor: pointer;
+  display: none;
+}
+.gallary .box .download i {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0678e3;
 }
 
+.gallary .box:hover .download {
+  display: flex;
+  transition: all 7s ease-in-out;
+}
 .gallary .img {
+  width: 100%;
+  height: 100%;
   position: relative;
   overflow: hidden;
 }
@@ -561,12 +590,24 @@ section {
   z-index: 999;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease-in-out;
+  overflow: hidden;
 }
 .gallary .img:hover::before {
   animation: flashing 0.7s;
+  overflow: hidden;
 }
 .gallary .img:hover img {
-  transform: rotate(10deg) scale(1.2);
+  transform: rotate(10deg) scale(1.5);
+  overflow: hidden;
+}
+.gallary .img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 @keyframes flashing {
@@ -705,31 +746,47 @@ section {
 }
 @keyframes change {
   0% {
-    background: url("../img/gallary/hero-bg.jpg");
+    background: url("../img/footer.jpg");
     background-size: contain;
   }
   10% {
-    background: url("../img/gallary/IMG_20210908_203434.jpg");
+    background: url("../img/gallary/gallary1.jpg");
     background-size: contain;
   }
   20% {
-    background: url("../img/gallary/IMG_20220305_010949.jpg");
+    background: url("../img/gallary/gallary2.jpg");
     background-size: contain;
   }
   30% {
-    background: url("../img/gallary/PicsArt_02-20-08.35.11.jpg");
+    background: url("../img/gallary/gallary3.jpg");
+    background-size: contain;
+  }
+  40% {
+    background: url("../img/gallary/gallary4.jpg");
     background-size: contain;
   }
   50% {
-    background: url("../img/gallary/profile-img.jpeg");
+    background: url("../img/gallary/gallary5.jpeg");
+    background-size: contain;
+  }
+  60% {
+    background: url("../img/gallary/gallary6.jpg");
     background-size: contain;
   }
   70% {
-    background: url("../img/gallary/Remini20210511104406803.jpg");
+    background: url("../img/gallary/gallary7.jpg");
+    background-size: contain;
+  }
+  80% {
+    background: url("../img/gallary/gallary8.jpeg");
+    background-size: contain;
+  }
+  90% {
+    background: url("../img/gallary/gallary9.jpg");
     background-size: contain;
   }
   100% {
-    background: url("../img/gallary/Remini20220220201213930.jpg");
+    background: url("../img/gallary/gallary10.jpg");
     background-size: contain;
   }
 }
