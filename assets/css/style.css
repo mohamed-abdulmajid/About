@@ -955,9 +955,12 @@ section .container {
   transition: 0.3s;
   cursor: pointer;
 }
-.contact .info-box .social-links i:hover {
-  color: var(--main-color-hover) !important;
+.contact .info-box .social-links i {
   transition: all 0.7s ease-in-out;
+}
+.contact .info-box .social-links i:hover {
+  color: #fff !important;
+  background-color: var(--main-color) !important;
 }
 
 .card-img-top {
