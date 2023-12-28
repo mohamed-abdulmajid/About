@@ -942,14 +942,16 @@ section .container {
   margin: 0 0 0 68px;
 }
 .contact .info-box .social-links {
-  margin: 10px 0 0 68px;
+  position: relative;
+  padding: 20px 0;
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
   line-height: 1;
-  margin-right: 12px;
   transition: 0.3s;
   cursor: pointer;
 }
