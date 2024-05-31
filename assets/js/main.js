@@ -216,6 +216,23 @@
     });
   }
 })();
-function go(loc) {
-  document.getElementById("MENUview").src = loc;
-}
+
+const go = (loc) => (document.getElementById("MENUview").src = loc);
+
+const calculateAge = () => {
+  const Age = document.querySelector(".AgeCalculate");
+  const MyDate = new Date("10 jul 1997");
+  const NowDate = new Date();
+  const Month = NowDate.getUTCMonth() - MyDate.getUTCMonth();
+
+  if (+NowDate.toDateString().split(" ")[2] === 17 && Month === 0) {
+    Age.innerHTML = `Today is my ${
+      NowDate.getUTCFullYear() - MyDate.getUTCFullYear()
+    }th Birthday 🎂`;
+  } else {
+    Age.innerHTML = `${NowDate.getUTCFullYear() - MyDate.getUTCFullYear()}-Y ${
+      Month > 0 ? Month : 12 + Month
+    }-M ${NowDate.toDateString().split(" ")[2]}-D`;
+  }
+};
+calculateAge();
